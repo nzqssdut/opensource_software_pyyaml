@@ -1,0 +1,2193 @@
+Commit SHA: 69c141adcf805c5ebdc9ba519927642ee5c7f639
+Message: Refresh CHANGES from release/6.0, bump to 7.0.0.dev0 (#821)
+Author: Matt Davis
+Date: 2024-08-06T22:43:04Z
+-------------------------------------------
+Commit SHA: f74f3350b530450ecd033ba5aceb334c4af867bd
+Message: fix `setup.py test` and issue deprecation warning (#820)
+
+* direct invocation of `setup.py` commands has been long deprecated by setuptools
+Author: Matt Davis
+Date: 2024-08-06T20:06:05Z
+-------------------------------------------
+Commit SHA: a2d19c0234866dc9d4d55abf3009699c258bb72f
+Message: Conditional support for Cython3.x, CI updates (#808)
+
+* Cython 3.x support needed for Python 3.13
+* Move CI to a dynamic matrix
+* Use GHA-hosted Apple Silicon runners
+* Move Windows builds to cibuildwheel
+* Implement rudimentary PEP517 config-settings passthru to setuptools with
+  custom in-tree setuptools build backend shim (blocked Windows build
+  being moved to cibuildwheel).
+* Use build_config.toml to smuggle JSON to cibuildwheel, since it
+  trashes JSON via CLI when doing containerized builds.
+Author: Matt Davis
+Date: 2024-06-10T22:24:15Z
+-------------------------------------------
+Commit SHA: 48838a3c768e3d1bcab44197d800145cfd0719d6
+Message: restore windows x86_64 3.8 Python job (#765)
+
+* mistakenly partially removed in a previous PR
+Author: Matt Davis
+Date: 2023-11-14T16:25:37Z
+-------------------------------------------
+Commit SHA: a98fd6088e81d7aca571220c966bbfe2ac43c335
+Message: Move tests to pytest
+
+* custom pytest collector and item to surface pyyaml data-driven tests as individual pytest unit tests
+* moved some true unit tests to pytest-native tests
+* deprecated `setup.py test` custom command
+* updated Makefile to use pytest
+* align test matrix with planned 7.x Python support
+Author: Matt Davis
+Date: 2021-11-25T00:37:09Z
+-------------------------------------------
+Commit SHA: 155ec463f6a854ac14ccd5e2dda8017ce42a508a
+Message: disable CI trigger on PR edits
+Author: Matt Davis
+Date: 2023-08-29T22:06:59Z
+-------------------------------------------
+Commit SHA: e9bf819da69b8bbbc8661e48266399d8f6cf0e17
+Message: Python 3.12 + musllinux_1_1_x86_64 wheel support
+* misc CI updates
+
+(cherry picked from commit b4d80a742142004490d2da7691d534923820b81c)
+Author: Matt Davis
+Date: 2023-08-10T19:55:28Z
+-------------------------------------------
+Commit SHA: a15d90a74a9086d08d69996de6c29265b19292e3
+Message: 6.0.1 release
+
+(cherry picked from commit c42fa3bff1eabdb64763bb1526d9ea1ccb708479)
+Author: Matt Davis
+Date: 2023-07-17T23:38:18Z
+-------------------------------------------
+Commit SHA: 27f9a9930616437f7bdfa26da7c00f274657e767
+Message: block Cython 3.0+ as a build dep (#702)
+
+* keeps libyaml extension build functional once Cython 3.0 releases; stopgap measure until we can rewrite the extension build to eliminate all the ancient deprecated distutils magic
+
+(cherry picked from commit ae08bdc82b4ddfcd2b93c8aedcd1963766c3307d)
+Author: Matt Davis
+Date: 2023-07-17T22:53:03Z
+-------------------------------------------
+Commit SHA: 957ae4d495cf8fcb5475c6c2f1bce801096b68a5
+Message: Add python 3.11 support (#663)
+
+* Add python 3.11 support
+
+* ci: use `windows-2019` runners
+
+`windows-2016` runners have been removed
+
+* ci: use CPython 3.11.0-rc.2 for Windows builds
+
+Co-authored-by: Matt Davis <mrd@redhat.com>
+Author: Matthieu Darbois
+Date: 2022-09-13T22:12:45Z
+-------------------------------------------
+Commit SHA: 0abad85a17ba75c0fb431feea7a6a06125341a99
+Message: security disclosure docs
+Author: Matt Davis
+Date: 2022-07-11T22:31:43Z
+-------------------------------------------
+Commit SHA: 8cdff2c80573b8be8e8ad28929264a913a63aa33
+Message: 6.0 release
+Author: Matt Davis
+Date: 2021-10-13T19:04:44Z
+-------------------------------------------
+Commit SHA: a4fb55e943abf25055725245b0779cf527069a78
+Message: Update Python 3.10 versions for Windows build
+Author: Matt Davis
+Date: 2021-10-13T19:00:50Z
+-------------------------------------------
+Commit SHA: e45b9643de3f7332e874ac67357ffd6dd5200211
+Message: Add Python 3.10 to tox.ini
+Author: Matt Davis
+Date: 2021-10-13T18:57:52Z
+-------------------------------------------
+Commit SHA: 4808fba18e067a93a4fcc25ddda1aae9b976ceb8
+Message: 6.0b1 release
+Author: Matt Davis
+Date: 2021-09-29T21:32:20Z
+-------------------------------------------
+Commit SHA: d5aba406edc9d2618fc9d6ffccd257fe593e4283
+Message: Omnibus CI/artifact build update
+
+* Adds support for private GHA runner to build for MacOS/arm64
+* Split CI/artifact build workflows (hopefully temporarily) since GHA can't do dynamic/conditional matrix
+* Moves Windows builds to GHA
+Author: Matt Davis
+Date: 2021-09-23T23:14:47Z
+-------------------------------------------
+Commit SHA: a6d384c52ea54ded80df27032c7b6d3a98b0c2fa
+Message: Various setup fixes
+
+* enable use of setuptools-embedded distutils
+* list 3.10 support
+* remove setup.cfg (and deprecated metadata in it)
+* run tests on ephemeral copy of intermediate build bits
+Author: Matt Davis
+Date: 2021-09-23T22:30:53Z
+-------------------------------------------
+Commit SHA: 8f3f9795b4ccc7087c439aad8342eaf916f273d0
+Message: No longer using appveyor
+Author: Ingy döt Net
+Date: 2021-09-23T21:44:20Z
+-------------------------------------------
+Commit SHA: c2743653bc89e42679ba097b4f9888db47c61d63
+Message: The yaml.load{,_all} functions require Loader= now
+Author: Ingy döt Net
+Date: 2021-09-23T20:46:48Z
+-------------------------------------------
+Commit SHA: 2f87ac4838840a2e3cb48504dcd74041921ab184
+Message: Add a basic test file for yaml.load and yaml.dump
+Author: Ingy döt Net
+Date: 2021-09-23T13:26:42Z
+-------------------------------------------
+Commit SHA: 7bd92df5435030b9a32f8843369ad6673d0d9294
+Message: Makefile tweaks
+Author: Ingy döt Net
+Date: 2021-09-22T22:49:45Z
+-------------------------------------------
+Commit SHA: 8f27932796623d58fe9e226e141cd27a6f0befec
+Message: Fix float resolver for '.' and '._'
+
+A single dot matches the official YAML 1.1 int regex.
+This was probably unintended. The regex now requires at least
+a digit before or after the dot.
+Author: Tina Müller
+Date: 2021-02-05T23:39:43Z
+-------------------------------------------
+Commit SHA: 575d2f46db42d147f8d5cba9dc8ffd3cd60e196c
+Message: Use with statements to eliminate ResourceWarnings
+Author: Thom Smith
+Date: 2021-09-22T20:32:47Z
+-------------------------------------------
+Commit SHA: 779bdb129ebe496d83650ef76393167ecabf1fcc
+Message: Use python3 in the Makefile
+
+Signed-off-by: Pantelis Antoniou <pantelis.antoniou@konsulko.com>
+Author: Pantelis Antoniou
+Date: 2021-09-22T19:47:11Z
+-------------------------------------------
+Commit SHA: a31a4fb1894c49bad0bf43b942650fb521423bae
+Message: Remove Python 2 support and simplify
+
+It's time to stop pretending this is anymore compatible to version 2
+by using macros to hide the fact that on 3 objects are bytes and not
+string.
+
+Removing the support for version 2 makes things clearer.
+
+Signed-off-by: Pantelis Antoniou <pantelis.antoniou@konsulko.com>
+Author: Pantelis Antoniou
+Date: 2021-09-22T19:45:42Z
+-------------------------------------------
+Commit SHA: fecae105d743cea9ad6a43ebe9a9974842fdf425
+Message: Define PyString_GetExact as Bytes
+
+Puzzling, but this is the expected behaviour
+
+Signed-off-by: Pantelis Antoniou <pantelis.antoniou@konsulko.com>
+Author: Pantelis Antoniou
+Date: 2021-09-22T17:07:36Z
+-------------------------------------------
+Commit SHA: 82db2835588c06b3db60b4f0d14dea9e0e02c697
+Message: Fix warning errors of the libyaml binding
+
+Make the build work without any warnings.
+The cython and C yaml types were differing in definition and that's
+no good.
+
+Signed-off-by: Pantelis Antoniou <pantelis.antoniou@konsulko.com>
+Author: Pantelis Antoniou
+Date: 2021-09-22T16:11:10Z
+-------------------------------------------
+Commit SHA: b3d2d674b7ff2a01d8665936390b31e3df2740da
+Message: Add a test for the YAML 1.1 types
+Author: Tina Müller
+Date: 2021-09-21T23:18:03Z
+-------------------------------------------
+Commit SHA: 961ce9dcf53dcef41f6268bbbb7c6a685a46c899
+Message: Fix issue with representing Enum types
+Author: Thom Smith
+Date: 2021-09-22T15:51:14Z
+-------------------------------------------
+Commit SHA: 141afddd45d29594e5e1699e54a8d817b10c660d
+Message: Correct spelling of “hexadecimal”
+Author: Thom Smith
+Date: 2021-09-22T14:30:55Z
+-------------------------------------------
+Commit SHA: 23120f886b97d38cf5788df001f41cb4acae8fbc
+Message: Update tox.ini
+
+Co-authored-by: Hugo van Kemenade <hugovk@users.noreply.github.com>
+Author: Thomas Smith
+Date: 2021-09-05T20:09:26Z
+-------------------------------------------
+Commit SHA: 28af8b24e63cf31652167fb15e4c9ef41242a014
+Message: Remove 3.5 from Appveyor
+Author: Thom Smith
+Date: 2021-09-21T19:57:14Z
+-------------------------------------------
+Commit SHA: 00be495c7890efa7a34b69ad526637fe9b587b40
+Message: Simplify python_requires
+Author: Thom Smith
+Date: 2021-09-02T20:47:31Z
+-------------------------------------------
+Commit SHA: f5bd5607ef1df4447f4795644f1839a7d1c78587
+Message: Remove 2.7 from CI
+Author: Thom Smith
+Date: 2021-09-02T20:45:48Z
+-------------------------------------------
+Commit SHA: f20947ae251fd1a7f21ad40f9423fa4c0e167fd4
+Message: Move code from lib3 to lib
+Author: Thom Smith
+Date: 2021-09-02T20:41:22Z
+-------------------------------------------
+Commit SHA: dc0c4c1441b3ffca1343fd80790ebd846cbc1305
+Message: Remove 2.7 support
+Author: Thom Smith
+Date: 2021-09-02T20:34:44Z
+-------------------------------------------
+Commit SHA: e5f6dadf869918107e86b13b19952a7e9554f273
+Message: Remove py35 from tox.ini
+Author: Thom Smith
+Date: 2021-09-02T18:34:48Z
+-------------------------------------------
+Commit SHA: 7f35bb5bf285c330f480ae1505870324860c5b21
+Message: Explode multiarch matrix for ML2014/aarch64/s390x
+Author: Matt Davis
+Date: 2021-03-06T01:51:25Z
+-------------------------------------------
+Commit SHA: 702b1767bf632d5bae390ec1f855173d256bb52f
+Message: Updated the content of the README.md file
+Author: Ingy döt Net
+Date: 2020-11-19T15:09:23Z
+-------------------------------------------
+Commit SHA: 99d27e78e87838e96c4a859d3fb87e9d36407811
+Message: Change README format to Markdown
+Author: Tim Hoffmann
+Date: 2019-08-05T10:20:59Z
+-------------------------------------------
+Commit SHA: ee37f4653c08fc07aecff69cfd92848e6b1a540e
+Message: 5.4.1 release
+Author: Ingy döt Net
+Date: 2021-01-20T21:38:14Z
+-------------------------------------------
+Commit SHA: 2b37f155d4313ea352f8576d84dda3025b8edf9c
+Message: Fix stub compat with older pyyaml versions that may unwittingly load it
+Author: Matt Davis
+Date: 2021-01-20T21:15:18Z
+-------------------------------------------
+Commit SHA: 58d0cb7ee09954c67fabfbd714c5673b03e7a9e1
+Message: 5.4 release
+Author: Ingy döt Net
+Date: 2021-01-19T19:07:59Z
+-------------------------------------------
+Commit SHA: a60f7a19c0b418fe95fcf2ec0957005ae39e1090
+Message: Fix compatibility with Jython
+
+This patch was taken from
+https://github.com/yaml/pyyaml/issues/369#issuecomment-571596545,
+authored by Pekka Klärck <peke@iki.fi>.
+
+In short, Jython doesn't support lone surrogates, so importing yaml (and
+in particular, loading `reader.py`) caused a UnicodeDecodeError. This
+patch works around this through a clever use of `eval` to defer
+evaluation of the string containing the lone surrogates, only doing it
+on non-Jython platforms.
+
+This is only done in `lib/yaml/reader.py` and not `lib3/yaml/reader.py`
+because Jython does not support Python 3.
+
+With this patch, Jython's behavior with respect to Unicode code points
+over 0xFFFF becomes as it was before
+0716ae21a1e7ab6b4ef73428c0c8fff49685d057. It still does not pass all the
+unit tests on Jython (passes 1275, fails 3, errors on 1); all the
+failing tests are related to unicode. Still, this is better than simply
+crashing upon `import yaml`.
+
+With this patch, all tests continue to pass on Python 2 / Python 3.
+Author: Anish Athalye
+Date: 2020-01-22T21:07:06Z
+-------------------------------------------
+Commit SHA: ee98abd7d7bd2ca9c7b98aa19164fd0306a3f3d2
+Message: Run CI on PR base branch changes
+Author: Matt Davis
+Date: 2021-01-13T21:44:38Z
+-------------------------------------------
+Commit SHA: ddf20330be1fae8813b8ce1789c48f244746d252
+Message: constructor.timezone: __copy_ & __deepcopy__
+
+close #387
+Author: Ovv
+Date: 2020-04-06T09:14:45Z
+-------------------------------------------
+Commit SHA: fc914d52c43f499224f7fb4c2d4c47623adc5b33
+Message: Avoid repeatedly appending to yaml_implicit_resolvers
+
+Repeated calls to `resolve` can experience performance degredation, if
+`add_implicit_resolver` has been called with `first=None` (to add an
+implicit resolver with an unspecified first character).
+
+For example, every time `foo` is encountered, the "wildcard implicit
+resolvers" (with `first=None`) will be appended to the list of implicit
+resolvers for strings starting with `f`, which will normally be the
+resolver for booleans. The list `yaml_implicit_resolvers['f']` will keep
+getting longer. The same behavior applies for any first-letter matches
+with existing implicit resolvers.
+
+This change avoids unintentionally mutating the lists in the class-level
+dict `yaml_implicit_resolvers` by looping through a temporary copy.
+
+Fixes: #439
+Author: Phil Sphicas
+Date: 2020-09-18T07:29:02Z
+-------------------------------------------
+Commit SHA: a001f2782501ad2d24986959f0239a354675f9dc
+Message: Fix for CVE-2020-14343
+
+Per suggestion https://github.com/yaml/pyyaml/issues/420#issuecomment-663888344
+move a few constructors from full_load to unsafe_load.
+Author: Ingy döt Net
+Date: 2021-01-09T15:53:23Z
+-------------------------------------------
+Commit SHA: fe150624146ee631bb0f95e45731e8b01281fed6
+Message: Add 3.9 to appveyor file for completeness sake
+
+Are we done with appveyor now?
+Can we just remove this file?
+Author: Ingy döt Net
+Date: 2020-12-23T16:23:58Z
+-------------------------------------------
+Commit SHA: 1e1c7fb7c09e9149967c208a6fd07276a6140d57
+Message: Add a newline character to end of pyproject.toml
+
+Is this TOML file actually needed?
+
+I'd prefer to remove it since it does so little, and stands out so
+prominiently.
+Author: Ingy döt Net
+Date: 2020-12-23T16:05:57Z
+-------------------------------------------
+Commit SHA: 0b6b7d61719fbe0a11f0980489f1bf8ce746c164
+Message: Start sentences and phrases for capital letters
+
+End sentences with periods.
+Author: Ingy döt Net
+Date: 2020-12-23T15:49:12Z
+-------------------------------------------
+Commit SHA: c97691596eec279ef9191a9b3bba583a17139d5a
+Message: Shell code improvements
+Author: Ingy döt Net
+Date: 2020-12-23T15:38:09Z
+-------------------------------------------
+Commit SHA: d6572c3a80607bd095b7288426a4d1352349f961
+Message: Remove unneeded quotes
+Author: Ingy döt Net
+Date: 2020-12-23T15:34:52Z
+-------------------------------------------
+Commit SHA: c5fb9097983aa98f6e6c95e5d6cf989a6289588f
+Message: Use long forms for docker run options
+Author: Ingy döt Net
+Date: 2020-12-23T15:32:36Z
+-------------------------------------------
+Commit SHA: 492bcbaa1385f11c98ce15a8e184d7002ba9339f
+Message: Better (non)use of literal form scalars
+Author: Ingy döt Net
+Date: 2020-12-23T15:28:17Z
+-------------------------------------------
+Commit SHA: c851ff7eadc86ddb49cce6702c6bd4c9e7f5e474
+Message: Replace ${{ x }} with ${{x}}
+
+Spaces in the syntax make it harder to reason if there will be spaces in
+the rendering or not.
+Author: Ingy döt Net
+Date: 2020-12-23T15:07:24Z
+-------------------------------------------
+Commit SHA: 13c7aec48d90420ade8f206727315d3868d97b06
+Message: Reduce long lines and adjust blank lines for clarity
+Author: Ingy döt Net
+Date: 2020-12-23T15:03:03Z
+-------------------------------------------
+Commit SHA: 219fe65b66d8d658119d1e2b48bf7313701352db
+Message: Don't overindent sequences in maps
+Author: Ingy döt Net
+Date: 2020-12-23T14:53:43Z
+-------------------------------------------
+Commit SHA: 6a19fd77a0cdf81525b03cfea751ca46666e9137
+Message: Rename ci.yml to YAML preferred ci.yaml
+Author: Ingy döt Net
+Date: 2020-12-23T15:24:14Z
+-------------------------------------------
+Commit SHA: 4927e75d99e5d21e5e578c97e54c962b7fc0e169
+Message: Add py29 to tox.ini envlist
+Author: Ingy döt Net
+Date: 2020-12-23T15:21:57Z
+-------------------------------------------
+Commit SHA: 89f608599d700bf2976bf9307f9f86565f27a80e
+Message: Build modernization (GHA, wheels, setuptools) (#407)
+
+* Move most CI to GitHub Actions
+* Build sdist
+* Build manylinux1 wheels with libyaml ext (also tested with 2010 and 2014)
+* Build MacOS x86_64 wheels with libyaml ext
+* Windows wheel builds remain on AppVeyor until we drop 2.7 support in 6.0
+* Smoke tests of all post-build artifacts
+* Add PEP517/518 build declaration (pyproject.toml with setuptools backend)
+* Fully move build to setuptools
+* Drop Python 3.5 support
+* Declare Python 3.9 support
+* Update PyPI metadata now that setuptools lets it flow through
+
+Co-authored-by: Matt Davis <mrd@redhat.com>
+Author: Brad Solomon
+Date: 2020-12-12T02:12:08Z
+-------------------------------------------
+Commit SHA: 3effceca2c2a583b400cb78e9dcdd205e785c9dc
+Message: Update list of maintainers
+
+Remove myself
+Author: Tina Müller
+Date: 2020-03-31T22:57:16Z
+-------------------------------------------
+Commit SHA: d0d660d035905d9c49fc0f8dafb579d2cc68c0c8
+Message: Add ARM64 jobs in Travis-CI (#366)
+Author: ossdev07
+Date: 2020-03-19T18:49:38Z
+-------------------------------------------
+Commit SHA: 538b5c93f7d5dee40322893c1e524e94a4f8bbde
+Message: Update announcement.msg
+Author: Tina Müller
+Date: 2020-03-18T20:39:39Z
+-------------------------------------------
+Commit SHA: 8a01c99c63c431fa79931c1913339ac41e6b872d
+Message: Move test files back into tests/data/
+Author: Ingy döt Net
+Date: 2020-03-18T20:54:08Z
+-------------------------------------------
+Commit SHA: 91bca4b856700c2975572ea85d9d785670a52813
+Message: Update version to 5.3.1
+Author: Tina Müller
+Date: 2020-03-17T19:52:26Z
+-------------------------------------------
+Commit SHA: 5080ba513377b6355a0502104846ee804656f1e0
+Message: Prevents arbitrary code execution during python/object/new constructor (#386)
+
+* Prevents arbitrary code execution during python/object/new constructor
+
+In FullLoader python/object/new constructor, implemented by
+construct_python_object_apply, has support for setting the state of a
+deserialized instance through the set_python_instance_state method.
+After setting the state, some operations are performed on the instance
+to complete its initialization, however it is possible for an attacker
+to set the instance' state in such a way that arbitrary code is executed
+by the FullLoader.
+
+This patch tries to block such attacks in FullLoader by preventing
+set_python_instance_state from setting arbitrary properties. It
+implements a blacklist that includes `extend` method (called by
+construct_python_object_apply) and all special methods (e.g. __set__,
+__setitem__, etc.).
+
+Users who need special attributes being set in the state of a
+deserialized object can still do it through the UnsafeLoader, which
+however should not be used on untrusted input. Additionally, they can
+subclass FullLoader and redefine `get_state_keys_blacklist()` to
+extend/replace the list of blacklisted keys, passing the subclassed
+loader to yaml.load.
+
+* Make sure python/object/new constructor does not set some properties
+
+* Add test to show how to subclass FullLoader with new blacklist
+Author: Riccardo Schirone
+Date: 2020-03-17T18:09:55Z
+-------------------------------------------
+Commit SHA: 2f463cf5b0e98a52bc20e348d1e69761bf263b86
+Message: Update announcement.msg
+Author: Tina Müller
+Date: 2020-01-06T20:09:53Z
+-------------------------------------------
+Commit SHA: 377092fb2eb2dcddb323a42aac4bc9089161b585
+Message: Changes for 5.3
+Author: Tina Müller
+Date: 2020-01-06T19:37:50Z
+-------------------------------------------
+Commit SHA: 69b025a9f32fd864ed2096a444a718b7492eb892
+Message: Changes for 5.3b1
+Author: Tina Müller
+Date: 2019-12-20T19:41:29Z
+-------------------------------------------
+Commit SHA: 4fcdcdbf604f7ce6ba190f6fd19b137df7b22b28
+Message: Add tests for timezone (#363)
+
+After #163, this adds some test data to check if the datetime objects
+return the correct timezone
+Author: Tina Müller (tinita)
+Date: 2019-12-16T20:31:04Z
+-------------------------------------------
+Commit SHA: 96d65f3de147cac6d500f8047b5542ff98a53884
+Message: Create timezone-aware datetimes when parsed as such (#163)
+
+* On load, now use aware datetimes if possible
+
+On loading data, if timestamps have an ISO "+HH:MM" UTC offset then the resultant datetime is converted to UTC.  This change adds that timezone information to the datetime objects.
+
+Importantly, this addresses a Django warning (and potential error) that appears when using both YAML fixtures in a timezone-aware project.  It was raised as a Django issue (https://code.djangoproject.com/ticket/18867), but subsequently closed because the Django devs felt that this is a PyYAML problem.
+
+* Create timezone-aware datetime in timezone from data
+
+* Create timezone-aware datetime in timezone from data for python2
+
+* Define better timezone implementation for python2
+
+* Handle timezone "Z" for python 3
+
+* Handle timezone "Z" for python 2
+
+* Fix code structure for Python 3
+
+Call datetime.datetime constructor once at return.
+
+* Fix code structure for Python 2
+
+Call datetime.datetime constructor once at return.
+Author: Mattijs Ugen
+Date: 2019-12-15T16:59:22Z
+-------------------------------------------
+Commit SHA: 49b354896e7d09afd5cc80e7bd786c0acbbcd47b
+Message: tox.ini: passenv = PYYAML_TEST_GROUP
+Author: Tina Müller
+Date: 2019-12-13T23:59:14Z
+-------------------------------------------
+Commit SHA: 36fdf0c48604641b45553485d1a38a7e6478d981
+Message: remove some unused imports (#260)
+
+* remove some unused imports
+
+as suggested by lgtm
+
+https://lgtm.com/projects/g/yaml/pyyaml/
+
+* add back import * from nodes
+
+* remove also sys import
+
+* remove mkpath import
+Author: Frédéric Chapoton
+Date: 2019-12-13T23:40:56Z
+-------------------------------------------
+Commit SHA: e1ffe1afaa1de24dd07283accab6e9ecf91f580f
+Message: increase size of index, line, and column fields (#310)
+
+* increase size of index, line, and column fields
+
+* use size_t instead of unsigned long long
+
+* better test infrastructure for test for large file
+
+* only run large file test when env var is set
+
+* fix review comments regarding env vars
+
+* fix missing import on python 3
+
+* force all tests in CI
+Author: Dwight Guth
+Date: 2019-12-13T23:30:52Z
+-------------------------------------------
+Commit SHA: f1ab37df447dccad6032485ff08c2d3beb6251f1
+Message: Fix for Python 3.10 (#329)
+Author: Hugo van Kemenade
+Date: 2019-12-09T15:32:56Z
+-------------------------------------------
+Commit SHA: 252b4fe54ed60c19c4ba394f26e365dbab07bd78
+Message: Document that PyYAML is implemented with Cython (#244)
+Author: Jon Dufresne
+Date: 2019-12-08T17:46:19Z
+-------------------------------------------
+Commit SHA: d137e82ad1bc55c283a33ffaccd93e51bcb4c0f1
+Message: Use full_load in yaml-highlight example (#359)
+Author: Tina Müller (tinita)
+Date: 2019-12-08T17:43:47Z
+-------------------------------------------
+Commit SHA: a826f546c29a154c3a425abe50a1cb102484ba47
+Message: Enable certain unicode tests when maxunicode not > 0xffff
+
+They were disabled in d6cbff662084dd94bde5421ece495482d1b14454
+
+After #351 the tests are working again
+Author: Tina Müller
+Date: 2019-12-08T16:01:02Z
+-------------------------------------------
+Commit SHA: 0716ae21a1e7ab6b4ef73428c0c8fff49685d057
+Message: Fix reader for Unicode code points over 0xFFFF (#351)
+
+This patch fixes the handling of inputs with Unicode code points over
+0xFFFF when running on a Python 2 that does not have UCS-4 support
+(which certain distributions still ship, e.g. macOS).
+
+When Python is compiled without UCS-4 support, it uses UCS-2. In this
+situation, non-BMP Unicode characters, which have code points over
+0xFFFF, are represented as surrogate pairs. For example, if we take
+u'\U0001f3d4', it will be represented as the surrogate pair
+u'\ud83c\udfd4'. This can be seen by running, for example:
+
+    [i for i in u'\U0001f3d4']
+
+In PyYAML, the reader uses a function `check_printable` to validate
+inputs, making sure that they only contain printable characters. Prior
+to this patch, on UCS-2 builds, it incorrectly identified surrogate
+pairs as non-printable.
+
+It would be fairly natural to write a regular expression that captures
+strings that contain only *printable* characters, as opposed to
+*non-printable* characters (as identified by the old code, so not
+excluding surrogate pairs):
+
+    PRINTABLE = re.compile(u'^[\x09\x0A\x0D\x20-\x7E\x85\xA0-\uD7FF\uE000-\uFFFD]*$')
+
+Adding support for surrogate pairs to this would be straightforward,
+adding the option of having a surrogate high followed by a surrogate low
+(`[\uD800-\uDBFF][\uDC00-\uDFFF]`):
+
+    PRINTABLE = re.compile(u'^(?:[\x09\x0A\x0D\x20-\x7E\x85\xA0-\uD7FF\uE000-\uFFFD]|[\uD800-\uDBFF][\uDC00-\uDFFF])*$')
+
+Then, this regex could be used as follows:
+
+    def check_printable(self, data):
+        if not self.PRINTABLE.match(data):
+            raise ReaderError(...)
+
+However, matching printable strings, rather than searching for
+non-printable characters as the code currently does, would have the
+disadvantage of not identifying the culprit character (we wouldn't get
+the position and the actual non-printable character from a lack of a
+regex match).
+
+Instead, we can modify the NON_PRINTABLE regex to allow legal surrogate
+pairs. We do this by removing surrogate pairs from the existing
+character set and adding the following options for illegal uses of
+surrogate code points:
+
+- Surrogate low that doesn't follow a surrogate high (either a surrogate
+  low at the start of a string, or a surrogate low that follows a
+  character that's not a surrogate high):
+
+    (?:^|[^\uD800-\uDBFF])[\uDC00-\uDFFF]
+
+- Surrogate high that isn't followed by a surrogate low (either a
+  surrogate high at the end of a string, or a surrogate high that is
+  followed by a character that's not a surrogate low):
+
+    [\uD800-\uDBFF](?:[^\uDC00-\uDFFF]|$)
+
+The behavior of this modified regex should match the one that is used
+when Python is built with UCS-4 support.
+Author: Anish Athalye
+Date: 2019-12-08T16:18:04Z
+-------------------------------------------
+Commit SHA: 6549385d53d9efd546f4b35f6992e6cc9f552657
+Message: Add use of safe_load() function in README (#285)
+
+It helps people to use `safe_load` if they discover the library.
+It's more secure if `safe_load()` is used by default, and `load()` is used if it's necessary (and the developer knows what is does).
+Author: sblondon
+Date: 2019-12-07T21:44:29Z
+-------------------------------------------
+Commit SHA: 03b378d0390c6e5538741196e60b70f5be27fc5b
+Message: Allow add_multi_constructor with None (#358)
+
+Loader.add_multi_constructor(None, myconstructor)
+
+Also add test for add_multi_constructor('!', ...) etc.
+
+See issue #317
+Author: Tina Müller (tinita)
+Date: 2019-12-07T21:40:48Z
+-------------------------------------------
+Commit SHA: 5a0cfab86f6bccd5e5bec5c239ccfb94f8f0fe11
+Message: Fix handling of __slots__ (#161)
+Author: Filip Salomonsson
+Date: 2019-12-07T21:34:23Z
+-------------------------------------------
+Commit SHA: eb459f842f690f809b649726f0a317909a92a29c
+Message: Fix up small typo
+
+Replace `intendation` with `indentation`.
+Author: Tim Gates
+Date: 2019-06-24T11:06:20Z
+-------------------------------------------
+Commit SHA: e21af4a0925e25bf5fd8c53f9ae6404a794a676e
+Message: Use `is` instead of equality for comparing with None
+Author: Sergey Fursov
+Date: 2019-04-11T11:20:14Z
+-------------------------------------------
+Commit SHA: de11e43d5247991ee2892df4c9dcba434afb6cb6
+Message: fix typos and stylistic nit
+Author: David Kao
+Date: 2019-03-15T18:21:40Z
+-------------------------------------------
+Commit SHA: a7a97871fce027d8c3da0d96117f5b71536b8244
+Message: fixup! setup.py: python_requires='!=3.4.*',
+Author: Christian Clauss
+Date: 2019-11-09T07:41:02Z
+-------------------------------------------
+Commit SHA: 039c9eb3082de06063fa669cf41a73dbeabb5d84
+Message: setup.py: Remove support for EOL Python 3.4
+Author: Christian Clauss
+Date: 2019-11-09T07:39:19Z
+-------------------------------------------
+Commit SHA: 6544c3091f2fb913b81102a33aaa973a6b1299ee
+Message: tox.ini: Add py38 and remove py34
+Author: Christian Clauss
+Date: 2019-11-09T07:38:06Z
+-------------------------------------------
+Commit SHA: 6d854b1e303e0a7b810d3d9fbb03c75c8dbfa169
+Message: Travis CI: Test on Python 3.8 production release
+
+Also drop the EOL Python 3.4  @hugovk Your review please.
+Author: Christian Clauss
+Date: 2019-11-09T07:36:44Z
+-------------------------------------------
+Commit SHA: 15e0e80d6dee9e8e513caa720c9fc2db0e935f44
+Message: Fix appveyor.yml to use libyaml tag not branch
+Author: Tina Müller
+Date: 2019-12-02T23:11:10Z
+-------------------------------------------
+Commit SHA: a5c2a043a26a6bf2787870eec9006b96ba6bca91
+Message: Version 5.2
+Author: Tina Müller
+Date: 2019-12-02T19:58:55Z
+-------------------------------------------
+Commit SHA: f4fd3fbf874db649112f7f02add8eb42ef183741
+Message: Windows build tweaks
+
+* centralized error handling on native commands
+* ensure that errors from native commands will fail build
+* use image-included Python 3.8
+* drop Python 3.4 wheel builds
+Author: Matt Davis
+Date: 2019-11-26T22:01:02Z
+-------------------------------------------
+Commit SHA: f813bc00f5d0f6f42984edd89ca11f4b5245d5e7
+Message: Changes for 5.2b1
+Author: Tina Müller
+Date: 2019-11-21T13:41:06Z
+-------------------------------------------
+Commit SHA: 3f3c373f5027ae2a0d305fc63eb453daaf952413
+Message: bump version to 5.2b1
+Author: Matt Davis
+Date: 2019-11-21T22:43:45Z
+-------------------------------------------
+Commit SHA: 8c5e47fe62d7b9e0282a176a4b79b8b2980dc704
+Message: Move constructor for object/apply to Unsafe
+Author: Tina Müller
+Date: 2019-11-18T14:55:27Z
+-------------------------------------------
+Commit SHA: 4a31b16b04c08f926f01d3f297140634665f004a
+Message: Change default loader for add_implicit_resolver, add_path_resolver
+
+If the Loader parameter is not given, add constructor to
+all three loaders
+Author: Tina Müller
+Date: 2019-06-11T20:53:40Z
+-------------------------------------------
+Commit SHA: a5394c04a2ef67ee218b49d7d8319f9ed8bcbbe5
+Message: Add custom constructors to multiple loaders
+
+When someone writes a subclass of the YAMLObject class, the constructors
+will now be added to all 3 (non-safe) loaders.
+
+Furthermore, we support the class variable `yaml_loader` being a list,
+offering more control of which loaders are affected.
+
+To support safe_load in your custom class you could add this:
+
+    yaml_loader = yaml.SafeLoader
+
+    yaml_loader = yaml.YAMLObject.yaml_loader
+    yaml_loader.append(yaml.SafeLoader)
+Author: Ingy döt Net
+Date: 2019-03-19T17:34:39Z
+-------------------------------------------
+Commit SHA: 8d7a78003ae59752cb33e65d54cbc7b37f1fa359
+Message: Change default loader for yaml.add_constructor (#287)
+
+* Change default loader for yaml.add_constructor
+
+If the Loader parameter is not given, add constructor to
+all three loaders
+Author: Tina Müller (tinita)
+Date: 2019-03-31T14:17:49Z
+-------------------------------------------
+Commit SHA: 8a7d0ed1628dc3b21e391b6cabd002dcadd2eee7
+Message: Update CHANGES for 5.1 (#280)
+
+* Update CHANGES
+
+Some PRs were forgotten, and some were listed that weren't merged.
+Author: Tina Müller (tinita)
+Date: 2019-03-31T14:16:27Z
+-------------------------------------------
+Commit SHA: 31f2279252e9d1a3093b738570c26f44a829f0a0
+Message: Fix logic for quoting special characters (#276)
+
+* Fix logic for quoting special characters
+
+* Remove has_ucs4 from condition
+
+on systems with `sys.maxunicode <= 0xffff` the comparison
+(u'\U00010000' <= ch < u'\U0010ffff') can't be true anyway I think
+Author: Tina Müller (tinita)
+Date: 2019-03-31T14:14:50Z
+-------------------------------------------
+Commit SHA: 0f64cbfa54b0b22dc7b776b7b98a7cd657e84d78
+Message: changes for 5.1.2 release
+Author: Matt Davis
+Date: 2019-07-31T00:40:33Z
+-------------------------------------------
+Commit SHA: 5986257f9fc978d4a61b6e0001df554f80e565cb
+Message: changes for 5.1.1 release
+Author: Matt Davis
+Date: 2019-06-06T01:01:01Z
+-------------------------------------------
+Commit SHA: e471e86bf6dabdad45a1438c20a4a5c033eb9034
+Message: Updates for 5.1 release
+Author: Ingy döt Net
+Date: 2019-03-13T15:45:34Z
+-------------------------------------------
+Commit SHA: 9141e900d10d280173335b20207e87d4a15e62c6
+Message: Windows Appveyor build
+
+* builds Windows wheels against a specified libyaml repo/refspec for many Python versions
+* since we don't have multiple Appveyor workers, it's faster/more convenient to run them serially
+* not all paths sufficient for general CI usage yet; still needs manual inspection/testing of output
+* various hacks to quiet warning noise during build on old Pythons
+Author: Matt Davis
+Date: 2019-03-12T18:35:50Z
+-------------------------------------------
+Commit SHA: d6cbff662084dd94bde5421ece495482d1b14454
+Message: Skip certain unicode tests when maxunicode not > 0xffff
+Author: Tina Müller
+Date: 2019-03-07T10:52:02Z
+-------------------------------------------
+Commit SHA: 69103ba255dd807ecb576654e84bd5efba3bad6e
+Message: Update .travis.yml to use libyaml 0.2.2
+Author: Ingy döt Net
+Date: 2019-03-07T05:57:05Z
+-------------------------------------------
+Commit SHA: 91c9435bb667dc318c845f5b3e8af36bb84c66eb
+Message: Squash/merge pull request #105 from nnadeau/patch-1
+
+Removed Python 2.6 & 3.3
+Author: Matt Davis
+Date: 2019-02-24T06:43:32Z
+-------------------------------------------
+Commit SHA: 507a464ce62c933bf667b2296a96ad45f0147873
+Message: Make default_flow_style=False
+Author: Tina Müller
+Date: 2019-02-23T21:24:40Z
+-------------------------------------------
+Commit SHA: 07c88c6c1bee51439a00bc07827980fbb161a1ad
+Message: Allow to turn off sorting keys in Dumper
+Author: Tina Müller
+Date: 2018-03-16T22:25:44Z
+-------------------------------------------
+Commit SHA: 611ba395079026fda2ea67c4ad23eb6351c5aa18
+Message: Include license file in the generated wheel package
+
+The wheel package format supports including the license file. This is
+done using the [metadata] section in the setup.cfg file. For additional
+information on this feature, see:
+
+https://wheel.readthedocs.io/en/stable/index.html#including-the-license-in-the-generated-wheel-file
+
+Distributing the wheel now complies with the license:
+
+> The above copyright notice and this permission notice shall be
+> included in all copies or substantial portions of the Software.
+Author: Jon Dufresne
+Date: 2017-11-26T20:18:02Z
+-------------------------------------------
+Commit SHA: 857dff153d2c9f238d3a68821262b7764aeb44ea
+Message: Apply FullLoader/UnsafeLoader changes to lib3
+Author: Tina Müller
+Date: 2019-02-23T20:12:43Z
+-------------------------------------------
+Commit SHA: 0cedb2a0697b2bc49e4f3841b8d4590b6b15657e
+Message: Deprecate/warn usage of yaml.load(input)
+
+The `load` and `load_all` methods will issue a warning when they are
+called without the 'Loader=' parameter. The warning will point to a URL
+that is always up to date with the latest information on the usage of
+`load`.
+
+There are several ways to stop the warning:
+
+* Use `full_load(input)` - sugar for `yaml.load(input, FullLoader)`
+  * FullLoader is the new safe but complete loader class
+* Use `safe_load(input)` - sugar for `yaml.load(input, SafeLoader)`
+  * Make sure your input YAML consists of the 'safe' subset
+* Use `unsafe_load(input)` - sugar for `yaml.load(input, UnsafeLoader)`
+  * Make sure your input YAML consists of the 'safe' subset
+* Use `yaml.load(input, Loader=yaml.<loader>)`
+  * Or shorter `yaml.load(input, yaml.<loader>)`
+  * Where '<loader>' can be:
+    * FullLoader - safe, complete Python YAML loading
+    * SafeLoader - safe, partial Python YAML loading
+    * UnsafeLoader - more explicit name for the old, unsafe 'Loader' class
+* yaml.warnings({'YAMLLoadWarning': False})
+  * Use this when you use third party modules that use `yaml.load(input)`
+  * Only do this if input is trusted
+
+The above `load()` expressions all have `load_all()` counterparts.
+
+You can get the original unsafe behavior with:
+* `yaml.unsafe_load(input)`
+* `yaml.load(input, Loader=yaml.UnsafeLoader)`
+
+In a future release, `yaml.load(input)` will raise an exception.
+
+The new loader called FullLoader is almost entirely complete as
+Loader/UnsafeLoader but it does it avoids all known code execution
+paths. It is the preferred YAML loader, and the current default for
+`yaml.load(input)` when you get the warning.
+
+Here are some of the exploits that can be triggered with UnsafeLoader
+but not with FullLoader:
+```
+python -c 'import os, yaml; yaml.full_load("!!python/object/new:os.system [echo EXPLOIT!]")'`
+python -c 'import yaml; print yaml.full_load("!!python/object/new:abs [-5]")'
+python -c 'import yaml; yaml.full_load("!!python/object/new:eval [exit(5)]")' ; echo $?
+python -c 'import yaml; yaml.full_load("!!python/object/new:exit [5]")' ; echo $?
+Author: Ingy döt Net
+Date: 2019-02-18T03:22:58Z
+-------------------------------------------
+Commit SHA: d13a3d0f9684351b357b7bf55df2cef050ddfbc6
+Message: Fix for bug https://github.com/yaml/pyyaml/issues/118
+Author: scauligi
+Date: 2018-02-04T05:44:49Z
+-------------------------------------------
+Commit SHA: 9959328b41ee577c6f14e3a0184b07dd0ecadb8c
+Message: Import Hashable from collections.abc
+
+In Python 3.7, importing ABCs directly from the 'collections' module shows a
+warning (and in Python 3.8 it will stop working) - see
+https://github.com/python/cpython/commit/c66f9f8d3909f588c251957d499599a1680e2320
+
+Since this is only done in lib3/ which is Python 3 only, we can unconditionally
+import it from collections.abc instead.
+
+This fixes the following DeprecationWarning:
+
+.../site-packages/yaml/__init__.py:75: in load
+    return loader.get_single_data()
+.../site-packages/yaml/constructor.py:37: in get_single_data
+    return self.construct_document(node)
+.../site-packages/yaml/constructor.py:46: in construct_document
+    for dummy in generator:
+.../site-packages/yaml/constructor.py:398: in construct_yaml_map
+    value = self.construct_mapping(node)
+.../site-packages/yaml/constructor.py:204: in construct_mapping
+    return super().construct_mapping(node, deep=deep)
+.../site-packages/yaml/constructor.py:126: in construct_mapping
+    if not isinstance(key, collections.Hashable):
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+name = 'Hashable'
+
+    def __getattr__(name):
+        # For backwards compatibility, continue to make the collections ABCs
+        # through Python 3.6 available through the collections module.
+        # Note, no new collections ABCs were added in Python 3.7
+        if name in _collections_abc.__all__:
+            obj = getattr(_collections_abc, name)
+            import warnings
+            warnings.warn("Using or importing the ABCs from 'collections' instead "
+                          "of from 'collections.abc' is deprecated, "
+                          "and in 3.8 it will stop working",
+>                         DeprecationWarning, stacklevel=2)
+E           DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+Author: Florian Bruhin
+Date: 2018-06-27T12:50:15Z
+-------------------------------------------
+Commit SHA: ccc40f3e2ba384858c0d32263ac3e3a6626ab15e
+Message: Reverting https://github.com/yaml/pyyaml/pull/74
+
+Revert "Make pyyaml safe by default."
+
+This reverts commit bbcf95fa051fdba9bbf879332e2f7999b195cf95.
+This reverts commit 7b68405c81db889f83c32846462b238ccae5be80.
+This reverts commit 517e83e8058e9d6850ab432ef22d84c2ac2bba5a.
+Author: Ingy döt Net
+Date: 2018-06-29T17:04:58Z
+-------------------------------------------
+Commit SHA: a9c28e0b521967f5330f0316edd90a57f99cdd32
+Message: Build libyaml on travis
+Author: Tina Müller
+Date: 2018-06-29T22:28:06Z
+-------------------------------------------
+Commit SHA: 69244c1cb5c3892118a4ee89cdde17c1b16b3f3a
+Message: Install cython alongside tox
+Author: Anthony Sottile
+Date: 2018-06-28T19:43:21Z
+-------------------------------------------
+Commit SHA: d76d03711913008b0c1239e910ae91ed457d0024
+Message: Force cython when building sdist
+
+Fixes #182
+Author: Tina Müller
+Date: 2018-06-28T19:23:52Z
+-------------------------------------------
+Commit SHA: d3eb7daf88e29bc20ffd4cfb833da3c49c617625
+Message: Changes for 4.1 release
+Author: Alex Gaynor
+Date: 2018-06-25T03:56:07Z
+-------------------------------------------
+Commit SHA: 4c2e993321ad29a02a61c4818f3cef9229219003
+Message: Changes for 4.01 release
+
+This is the first release under new maintainership. A bunch of things
+involving resource URLs and copyright details needed updating; in
+addition to the normal version and changelog updates.
+Author: Ingy döt Net
+Date: 2018-06-24T23:08:57Z
+-------------------------------------------
+Commit SHA: f6049c8cd6674b1197756e9a8e656b0fe162cf70
+Message: Support escaped slash in double quotes "\/"
+
+YAML 1.2 JSON compat
+Author: Tina Müller
+Date: 2018-04-15T11:39:34Z
+-------------------------------------------
+Commit SHA: e7a2f886d999b3c9040d4a07b159433e329505b4
+Message: Drop unsupported Python 3.3
+
+See: https://en.wikipedia.org/wiki/CPython#Version_history
+Author: hugovk
+Date: 2017-10-08T14:29:50Z
+-------------------------------------------
+Commit SHA: b6cbfeec35e019734263a8f4e6a3340e94fe0a4f
+Message: Test on Python 3.7-dev
+
+Add Python 3.7 classifier
+Author: Hugo
+Date: 2018-01-31T08:29:58Z
+-------------------------------------------
+Commit SHA: 801288d796186d0460284720fad81d487e420271
+Message: Remove commented out Psyco code
+
+From the Psyco website:
+
+> 12 March 2012
+>
+> Psyco is unmaintained and dead. Please look at PyPy for the
+> state-of-the-art in JIT compilers for Python.
+
+http://psyco.sourceforge.net/
+Author: Jon Dufresne
+Date: 2017-12-16T20:34:34Z
+-------------------------------------------
+Commit SHA: 0f2afdea778ac5abbf3980da180f3bfbfa5cd40f
+Message: Revert PR #150 per @asomov
+
+and also explicitly return None if no tokens exist.
+
+Also add a comment to show this.
+
+This 'None' behavior should be tested at some point.
+Author: Ingy döt Net
+Date: 2018-04-10T23:47:47Z
+-------------------------------------------
+Commit SHA: a02d17a027e9c34acbe5e01760d3c8701ee59418
+Message: Remove redundant code in Scanner.peek_token()
+Author: Andrey Somov
+Date: 2018-03-28T08:07:27Z
+-------------------------------------------
+Commit SHA: 298e07907ae526594069f6fdf31f2f1278cc1ae3
+Message: Fallback to Pure Python if Compilation fails
+
+Originally this code attempted to determine if compiling the C ext
+would succeed, and if it thought it should, it would then require that
+the C extension succeed in order to install. This fails in cases where
+the detection code passes, but compiling ultimately fails (one instance
+this might happen is if the Python headers are not installed).
+
+Instead of "asking permission", this code will now just attempt to
+compile the module, and will fall back to pure Python if that fails,
+unless the person has explicitly asked for the C module, in which case
+it will still just fail.
+Author: Donald Stufft
+Date: 2017-09-08T15:05:24Z
+-------------------------------------------
+Commit SHA: 802c4a6dac5b0a02ba670dba20d5c8d6b7fe5a5e
+Message: add 3.12 changelog
+Author: hsmtkk
+Date: 2017-08-27T10:44:04Z
+-------------------------------------------
+Commit SHA: bbcf95fa051fdba9bbf879332e2f7999b195cf95
+Message: Now, for py3k!
+Author: Alex Gaynor
+Date: 2017-08-26T13:50:48Z
+-------------------------------------------
+Commit SHA: 517e83e8058e9d6850ab432ef22d84c2ac2bba5a
+Message: wtf, how did this typo happen
+Author: Alex Gaynor
+Date: 2017-08-26T13:29:39Z
+-------------------------------------------
+Commit SHA: 7b68405c81db889f83c32846462b238ccae5be80
+Message: Make pyyaml safe by default.
+
+Change yaml.load/yaml.dump to be yaml.safe_load/yaml.safe_dump, introduced yaml.danger_dump/yaml.danger_load, and the same for various other classes.
+
+(python2 only at this moment)
+
+Refs #5
+Author: Alex Gaynor
+Date: 2017-08-26T13:26:59Z
+-------------------------------------------
+Commit SHA: d856c206fd4bfd71254e0d69e9d5e31bef5d2c0f
+Message: Fix typos
+Author: Jakub Wilk
+Date: 2017-01-22T11:42:27Z
+-------------------------------------------
+Commit SHA: ef744d8609f47e8b70ce007ecfe6595d3c367174
+Message: Improve RepresenterError creation
+Author: Timofei Bondarev
+Date: 2017-03-01T05:45:09Z
+-------------------------------------------
+Commit SHA: 2c55eb674948fb07a8552a2ce684365e3551f5e9
+Message: Resolves #57, update readme issues link
+Author: psanchez
+Date: 2017-03-28T14:41:10Z
+-------------------------------------------
+Commit SHA: 24979fb90a82f8bfa6d136701cab2dc99ab263bd
+Message: Remove tox workaround for Travis CI
+
+No longer necessary.
+Author: Jon Dufresne
+Date: 2017-04-16T22:12:55Z
+-------------------------------------------
+Commit SHA: 2ed99483f1890fd27dbe0c651a981062d68d0bc6
+Message: Use Travis CI built in pip cache support
+
+https://docs.travis-ci.com/user/caching/#pip-cache
+Author: Jon Dufresne
+Date: 2017-04-16T22:05:06Z
+-------------------------------------------
+Commit SHA: 8bca3eb44dcaf4ec6bab7aca508d77f1b1e14e06
+Message: Document and test Python 3.6 support
+Author: Jon Dufresne
+Date: 2017-04-16T22:02:35Z
+-------------------------------------------
+Commit SHA: 94c3f07465400dee31b559b42ea59e84bebb092b
+Message: Reverting README to old copy
+Author: Peter Murphy
+Date: 2017-05-09T23:38:57Z
+-------------------------------------------
+Commit SHA: c67d8df8e412b98eab8f30a4856d1b47d1820955
+Message: Suspicious 'expected an exception' messages trimmed
+Author: Peter Murphy
+Date: 2017-05-09T21:53:42Z
+-------------------------------------------
+Commit SHA: c60232d69a44c2922713ecf67e5d3d4834246ae4
+Message: Added emoticon test data files (which will probably break testing)
+Author: Peter Murphy
+Date: 2017-05-09T13:07:36Z
+-------------------------------------------
+Commit SHA: cf1c86cb86db74206085e6f83e4586ddc7db9ac2
+Message: First attack at pyyaml does not support literals in unicode over codepoint 0xffff #25
+Author: Peter Murphy
+Date: 2017-05-08T06:39:26Z
+-------------------------------------------
+Commit SHA: a06c1f644b0ba3298efb7b6ec928aaa9221b52b8
+Message: A change to a message
+Author: Peter Murphy
+Date: 2017-05-06T22:53:49Z
+-------------------------------------------
+Commit SHA: c5b135fe39d41cffbdc006f28ccb2032df6005e0
+Message: Allow colon in a plain scalar in a flow context (#45)
+
+* Allow colon in a plain scalar in a flow context
+
+* Restore behavior of flow mapping with empty value
+Author: Daniel Beer
+Date: 2017-02-08T19:50:53Z
+-------------------------------------------
+Commit SHA: 86a29eb50f26a877d08df317d225cd245fc66859
+Message: Install tox in a virtualenv
+
+Since TravisCI has an extremely old version of PyPy, we need to use
+pyenv to install a more recent version. However, pyenv's shims don't
+persist between the install and script portions of Travis. So we have to
+use a virtualenv so Travis can find the tox command.
+Author: Ian Cordasco
+Date: 2016-11-23T23:26:13Z
+-------------------------------------------
+Commit SHA: 2414cad1fc46f776d3f2e26f793e0898eaf5c6c5
+Message: Add Travis Support
+Author: Donald Stufft
+Date: 2016-09-12T12:28:09Z
+-------------------------------------------
+Commit SHA: a27099bb68d5f045999d61f04476114292ce6ea5
+Message: Ignore common build/runtime artifacts
+Author: Donald Stufft
+Date: 2016-09-12T12:21:24Z
+-------------------------------------------
+Commit SHA: bdf0794358a8e34a2232c11651eafed0a58fae93
+Message: Add a tox.ini to run tests
+Author: Donald Stufft
+Date: 2016-09-12T12:20:01Z
+-------------------------------------------
+Commit SHA: 93694d3e42b0cfd460f42beb75910aacacd9b5d2
+Message: Added tag 3.12 for changeset 823acfc7b4ff
+Author: Kirill Simonov
+Date: 2016-08-28T23:55:34Z
+-------------------------------------------
+Commit SHA: 7e026bfee9cc0bddeb1bbca0c4a0bcd826c2bfdf
+Message: Updated README and announcement.
+Author: Kirill Simonov
+Date: 2016-08-27T21:21:42Z
+-------------------------------------------
+Commit SHA: eb9932ac1c0f9154c2f0884662cc8c7794239dbc
+Message: Fixed handling --verbose flag in the test appliance.
+Author: Kirill Simonov
+Date: 2016-08-26T03:24:45Z
+-------------------------------------------
+Commit SHA: 37be8e0c17e82761f50b6d1ec2da512a59858d0d
+Message: Merged in scorphus/pyyaml (pull request #9)
+
+scanner: use infinitive verb after auxiliary word could
+Author: Kirill Simonov
+Date: 2016-08-26T03:20:32Z
+-------------------------------------------
+Commit SHA: ca0ed1fefe019fbc658ceace386873c58b0e4d6d
+Message: Corrected libyaml definitions in _yaml.pxd.
+Author: Kirill Simonov
+Date: 2016-08-26T03:03:41Z
+-------------------------------------------
+Commit SHA: 16bd7d06c2cd4f2b688e2adc083b175595c03000
+Message: Improved check for CPython (fixes issue #58).
+Author: Kirill Simonov
+Date: 2016-08-25T22:52:48Z
+-------------------------------------------
+Commit SHA: 153a194e860b499e38b4d777698110a5f7c8d0df
+Message: Adding an implicit resolver to a derived loader should not affect the base loader (fixes issue #57).
+Author: Kirill Simonov
+Date: 2016-08-25T22:42:41Z
+-------------------------------------------
+Commit SHA: c95586cfb6147bcb3d066a0291a76f31affa9374
+Message: Uniform representation for OrderedDict (fixes issue #61).
+Author: Kirill Simonov
+Date: 2016-08-25T22:30:28Z
+-------------------------------------------
+Commit SHA: f10d92f87bedc314b6e2904ac934f744e985d9e2
+Message: Fixed comparison to () (closes #64).
+Author: Kirill Simonov
+Date: 2016-08-25T21:27:19Z
+-------------------------------------------
+Commit SHA: d737907354c1cd53c48385541ad0303238a671c4
+Message: Fixed comparison to None warning (closes issue #64).
+Author: Kirill Simonov
+Date: 2016-08-25T20:55:09Z
+-------------------------------------------
+Commit SHA: 7eeba3446777bc887f9437f5d0581591b3045970
+Message: removed a test which fails when wheel is imported.
+Author: Kirill Simonov
+Date: 2016-06-17T04:01:38Z
+-------------------------------------------
+Commit SHA: 7bd6e032f36b8f076ec50365df69229c8af36cca
+Message: Support for wheel packages.
+Author: Kirill Simonov
+Date: 2016-06-17T03:32:32Z
+-------------------------------------------
+Commit SHA: 491508b0429ecb4acf240e4fdc14898b9ebf5df2
+Message: Raise an error when test suite failed.
+Author: Kirill Simonov
+Date: 2016-06-16T01:28:10Z
+-------------------------------------------
+Commit SHA: a57fe5ca52d4e02936c76892138e516889573cf6
+Message: Dropped pyrex build support; Cython now supports Python 3.
+Author: Kirill Simonov
+Date: 2016-06-16T00:28:34Z
+-------------------------------------------
+Commit SHA: 53b4c075f609bfc375f649ba82efd56b35aee886
+Message: Bumped the version number.
+Author: Kirill Simonov
+Date: 2016-06-16T00:26:06Z
+-------------------------------------------
+Commit SHA: 2c225b29fc6daeb343b65d0ca30ba1c7ad297c77
+Message: scanner: use infinitive verb after auxiliary word could
+
+Could, as well as should, shall, must, may, can, might, etc.
+are auxiliary words. After an auxiliary word should come an
+infinitive verb.
+Author: Pablo Santiago Blum de Aguiar
+Date: 2015-04-04T16:25:24Z
+-------------------------------------------
+Commit SHA: a0c99023a542c126cf1378450328ab4c1b002bcf
+Message: Removed invalid simple key assertion.
+Author: Kirill Simonov
+Date: 2014-11-28T17:53:36Z
+-------------------------------------------
+Commit SHA: 0f734fcc6ee6c8d578c932636693ba7b48e70d05
+Message: Added tag 3.11 for changeset b361458ecb13
+Author: Kirill Simonov
+Date: 2014-03-27T00:34:48Z
+-------------------------------------------
+Commit SHA: 96ee4cbfcc0aadb73d46f06f0672b7b4d5a29fb6
+Message: Bumped the version number.
+Author: Kirill Simonov
+Date: 2014-03-27T00:34:36Z
+-------------------------------------------
+Commit SHA: b6c388a23e32ecd38e8a14778d7e36d4040686f1
+Message: update tags
+Author: convert-repo
+Date: 2012-12-24T03:51:27Z
+-------------------------------------------
+Commit SHA: 9453e0afc06b41ade7b9c45d853b62c8158bfef6
+Message: Removed build options for 2.3 and 2.4.
+Author: Kirill Simonov
+Date: 2011-05-30T04:53:00Z
+-------------------------------------------
+Commit SHA: af4ffe0c8f11911423b6db8f693c2fb3f782d585
+Message: Updated the announcement.
+Author: Kirill Simonov
+Date: 2011-05-30T04:40:03Z
+-------------------------------------------
+Commit SHA: 644385bed3f6a8d234a489b9863dcca92bc84c47
+Message: Dropped support for Python 2.3 and 2.4.
+Author: Kirill Simonov
+Date: 2011-05-30T04:19:04Z
+-------------------------------------------
+Commit SHA: b1c7014863f2c0870560abca3293742f903b14e8
+Message: Updated the changelog and bumped the version number.
+Author: Kirill Simonov
+Date: 2011-05-30T03:28:15Z
+-------------------------------------------
+Commit SHA: 7e1b5fae0b6154dbcce7f90e81562a5ab814a7cc
+Message: Clear cyclic references in the parser and the emitter to avoid extra GC calls.
+Author: Kirill Simonov
+Date: 2011-05-30T02:51:30Z
+-------------------------------------------
+Commit SHA: 23c952fe08b2e7ea0f8d7673f45b17547e331f4b
+Message: Do not attempt to build extensions on platforms other than CPython.
+Author: Kirill Simonov
+Date: 2011-05-29T16:13:17Z
+-------------------------------------------
+Commit SHA: 20609edc91c942833fe35740e391c12c89f4742a
+Message: Removed python-porting from the announcement list.
+Author: Kirill Simonov
+Date: 2009-08-31T10:36:34Z
+-------------------------------------------
+Commit SHA: 1626bb30f5ab05976ac055266d473e35a377cf99
+Message: Fixed tests on the Windows platform.
+Author: Kirill Simonov
+Date: 2009-08-31T09:09:21Z
+-------------------------------------------
+Commit SHA: 3889e354cf20b7a6accdd7fc9265b1d4a214a351
+Message: Fixed another encoding issue.
+Author: Kirill Simonov
+Date: 2009-08-31T08:47:05Z
+-------------------------------------------
+Commit SHA: 03b28d0fc787f60532bc16c6f494925ad8af2887
+Message: Minor formatting cleanup.
+Author: Kirill Simonov
+Date: 2009-08-30T20:06:16Z
+-------------------------------------------
+Commit SHA: 50bc6388bfb1d2f480820a8649d33a4bb10a636d
+Message: Fixed Python 3.1 incompatibility issues.
+Author: Kirill Simonov
+Date: 2009-08-30T19:32:07Z
+-------------------------------------------
+Commit SHA: b3c9435637cf173e50c2862148596e8d9bd3faef
+Message: Preparing the next release.
+Author: Kirill Simonov
+Date: 2009-08-30T00:07:20Z
+-------------------------------------------
+Commit SHA: b8b826f1caecedd7afcea9e48abbc9b59c32c713
+Message: Fixed sorting of dict.keys() generator.
+Author: Kirill Simonov
+Date: 2009-08-30T00:04:52Z
+-------------------------------------------
+Commit SHA: 583ea8ad3218be5c4a70baab459b06d0d633970e
+Message: Added a note that Python 3.1 is supported.
+Author: Kirill Simonov
+Date: 2009-08-29T22:37:18Z
+-------------------------------------------
+Commit SHA: ed9cd1bbadd92eb3869715d5f530ce70ee817afd
+Message: Merged some bug fixes from lib to lib3.
+Author: Kirill Simonov
+Date: 2009-08-29T22:28:45Z
+-------------------------------------------
+Commit SHA: 335c34455d8cdeffa73281b22a409fb73bfcbdf1
+Message: Fixed a problem with a scanner error not detected when no line break at the end of the stream.
+Author: Kirill Simonov
+Date: 2009-08-29T22:12:45Z
+-------------------------------------------
+Commit SHA: 51fd5cbfdb192798965ccd3a9755c0f2c301665e
+Message: Fixed a typo in docstring.
+Author: Kirill Simonov
+Date: 2009-08-29T21:33:36Z
+-------------------------------------------
+Commit SHA: fa14e18b388d5b35d8c7b592850fca6c592e8d27
+Message: Fixed emitting of invalid BOM for UTF-16.
+Author: Kirill Simonov
+Date: 2009-08-29T20:59:56Z
+-------------------------------------------
+Commit SHA: 706e36ab64f529ae45a948a5e999ffb226fcba91
+Message: Fixed a problem when CDumper incorrectly serializes a node anchor.
+Author: Kirill Simonov
+Date: 2009-08-29T19:15:31Z
+-------------------------------------------
+Commit SHA: 59bb2dff6a79035cb36657517519ca43c4b0e418
+Message: Removed obsolete 'package_dir' line.
+Author: Kirill Simonov
+Date: 2009-08-29T19:13:27Z
+-------------------------------------------
+Commit SHA: 7e0469140a7c87b02e7be0cf26e3ba5c0bbea1bf
+Message: Fixed the Pyrex implementation of Mark class.
+Author: Kirill Simonov
+Date: 2009-03-28T12:49:52Z
+-------------------------------------------
+Commit SHA: 6483cb73c787eb9c06fd8dceee2ab85cb6010dec
+Message: Fixed a bug where folded scalar emitter did not respect the preffered line width (Thanks ingy for the report and the patch).
+Author: Kirill Simonov
+Date: 2009-03-28T12:49:11Z
+-------------------------------------------
+Commit SHA: 08a55b972b96d009b4118b65a539da39236ee9c8
+Message: Added a workaround against #116 (Thanks Andrey Somov).
+Author: Kirill Simonov
+Date: 2009-02-23T19:17:29Z
+-------------------------------------------
+Commit SHA: b8f1953266509eb32d4a4e7ed3cc3e6bb48edb80
+Message: Restored Mark implementation in C as using the Python class causes a significant performance hit.
+Author: Kirill Simonov
+Date: 2008-12-31T11:04:28Z
+-------------------------------------------
+Commit SHA: 6f51a53a6b26ef832984c77cb5ddc4ac0cc0d2bb
+Message: Fixed a typo in the attribute name (Thanks ingy).
+Author: Kirill Simonov
+Date: 2008-12-30T20:23:49Z
+-------------------------------------------
+Commit SHA: 466bc3865c0609f2c813ff982f56cdbd8e46db68
+Message: Added a MS VC 6.0 compatibility hack against Cython-generated C sources.
+Author: Kirill Simonov
+Date: 2008-12-30T19:55:02Z
+-------------------------------------------
+Commit SHA: f18dbe7f5d272f569d3e343d12174c0298cf7e2d
+Message: Added directories lib/yaml and lib3/yaml to MANIFEST.in.
+Author: Kirill Simonov
+Date: 2008-12-30T18:44:37Z
+-------------------------------------------
+Commit SHA: 6a62e8e7e0df358f269a27f9248de104fdf79bcb
+Message: Final touches before the release.
+Author: Kirill Simonov
+Date: 2008-12-30T18:18:53Z
+-------------------------------------------
+Commit SHA: e2bf4f3a03aa581aa70841f1cdc4d484c9e2ee46
+Message: Minor compatibility fixes.
+Author: Kirill Simonov
+Date: 2008-12-30T14:55:47Z
+-------------------------------------------
+Commit SHA: bf272b0339eae58dc150b27de73f1a301fb32871
+Message: Fixed str/bytes issues with Python 3 in _yaml.pyx.
+Author: Kirill Simonov
+Date: 2008-12-30T13:30:52Z
+-------------------------------------------
+Commit SHA: 5f5e9a9494b1cb983feb805ef15edb967ba0f146
+Message: Handle the encoding of input and output streams in a uniform way.
+Author: Kirill Simonov
+Date: 2008-12-30T04:02:04Z
+-------------------------------------------
+Commit SHA: 7d5f9450cf75a3aaf17250257c16daa814063e4a
+Message: Use Cython if available; added Python 3 support to _yaml.pyx.
+Author: Kirill Simonov
+Date: 2008-12-29T23:21:43Z
+-------------------------------------------
+Commit SHA: ab8d9404692665eae81dba0040450f9cb0d464ef
+Message: Share data files between Py2 and Py3 test suites.
+Author: Kirill Simonov
+Date: 2008-12-29T19:05:11Z
+-------------------------------------------
+Commit SHA: ca836ef04d75da6da95f75be834b39f1df80ba26
+Message: Fixed the remaining Python 3 compatibility issues.
+Author: Kirill Simonov
+Date: 2008-12-29T18:11:08Z
+-------------------------------------------
+Commit SHA: 235ab98c2c2f37a6bc9d0292d5032ecc7aa8a640
+Message: Added basic support for Python 3 (Thanks idadesub(at)users(dot)sourceforge(dot)net).
+Author: Kirill Simonov
+Date: 2008-12-29T17:24:05Z
+-------------------------------------------
+Commit SHA: 1310c512497febfd2b722db671f4ff1c724e93c8
+Message: Added CHANGES; updated the announcement; wording fixes in setup.py.
+Author: Kirill Simonov
+Date: 2008-12-28T23:34:19Z
+-------------------------------------------
+Commit SHA: 8e88d11b41b8cbec4c51180589fd77b6a3d7c1f9
+Message: Minor 2.3 and win32 compatibility fixes; clarify the 'feature not found' message in setup.py.
+Author: Kirill Simonov
+Date: 2008-12-28T21:42:35Z
+-------------------------------------------
+Commit SHA: 1e842301f4a017094f7507711ef1b3c0ce461338
+Message: Fixed an issue with ReaderError generated by the LibYAML wrapper.
+Author: Kirill Simonov
+Date: 2008-12-28T20:41:41Z
+-------------------------------------------
+Commit SHA: aff84ff195975ab62bbf313e4557516f2629d4cb
+Message: Refactored the test suite; updated include and library paths in setup.cfg.
+Author: Kirill Simonov
+Date: 2008-12-28T20:16:50Z
+-------------------------------------------
+Commit SHA: a667b61247604e2b89e694d4d3e2a681f9485c3c
+Message: Bumped the version number.
+Author: Kirill Simonov
+Date: 2008-12-27T19:11:55Z
+-------------------------------------------
+Commit SHA: 5413848f2ba250cc2c70f0192893a4a9626a8209
+Message: Emit an explicit document end indicator when there is a possibility of ambiguous parsing.
+Author: Kirill Simonov
+Date: 2008-12-27T19:10:31Z
+-------------------------------------------
+Commit SHA: 93f64d3c796a4b6275b1e23481368c8c68f8ad13
+Message: Fixed test errors for LibYAML bindings; added a test on emitting nodes in all possible styles.
+Author: Kirill Simonov
+Date: 2008-12-27T19:09:03Z
+-------------------------------------------
+Commit SHA: 7baeadf46f61f8131583569e7b007edae9745f7a
+Message: Minor fixes in the test subsystem to prevent failures in LibYAML bindings tests.
+Author: Kirill Simonov
+Date: 2008-12-27T14:54:07Z
+-------------------------------------------
+Commit SHA: 4cc504a108b17604e81880068ec054078af53a5e
+Message: Fixed a bug in CDumper when ascend_resolver() is never called.
+Author: Kirill Simonov
+Date: 2008-12-27T14:50:08Z
+-------------------------------------------
+Commit SHA: 59f1f454651c87b201ba71f093ff740ee2f4dd5d
+Message: Refactored whitespace combination detector in the scalar analyzer: support dumping '^ <break> <space> ...' in the block style.
+Author: Kirill Simonov
+Date: 2008-12-27T11:07:47Z
+-------------------------------------------
+Commit SHA: 3acc330efae95547ae196cd000903c0d82e95c6b
+Message: Fixed typos in attribute names (Thanks to ingy).
+Author: Kirill Simonov
+Date: 2008-12-08T09:12:10Z
+-------------------------------------------
+Commit SHA: 9027393a4f6c6a039aced0502cbce6eb40e68ad1
+Message: Added a comment on Python 3 support.
+Author: Kirill Simonov
+Date: 2008-12-05T19:37:52Z
+-------------------------------------------
+Commit SHA: 5d2ae6b34f917ab10f0b7ce940ca3747fc1c2de3
+Message: Added trove classifiers for supported Python versions.
+Author: Kirill Simonov
+Date: 2008-12-05T19:35:24Z
+-------------------------------------------
+Commit SHA: 6282bda857b100c6ff183ac261a5574fc5780272
+Message: Fixed a problem with emitting block scalars (thanks to Andrey Somov): no longer emit indentation spaces when they are not needed; emit the correct number of leading breaks for folded scalars; emit the '+' chomping indicator for a single break scalar.
+Author: Kirill Simonov
+Date: 2008-12-04T11:32:12Z
+-------------------------------------------
+Commit SHA: b78e4948abee14f0d84d045e04cd2d84e64c7c4e
+Message: Removed unused variable.
+Author: Kirill Simonov
+Date: 2008-12-04T11:27:55Z
+-------------------------------------------
+Commit SHA: d41df6ae3bc64bdc4f85bde3341b49e980ade110
+Message: Removed a stale comment; fixes #102.
+Author: Kirill Simonov
+Date: 2008-11-30T14:15:40Z
+-------------------------------------------
+Commit SHA: 3ea3d11ffca4e7f16ac729a88d648beefd628cd2
+Message: Pretend that PyYAML is a pure Python library when the LibYAML extension is explicitly disabled.
+Author: Kirill Simonov
+Date: 2008-11-30T14:06:13Z
+-------------------------------------------
+Commit SHA: 0415f86e9d9cca6224313a8d78ced2d81e7692eb
+Message: determine_chomp -> determine_block_hints
+Author: Kirill Simonov
+Date: 2008-11-30T13:35:48Z
+-------------------------------------------
+Commit SHA: ec77e1356d95dc85cdcc6ee39eaf4c9ab3f390d6
+Message: Permit emitting block scalars with leading spaces or breaks.
+Author: Kirill Simonov
+Date: 2008-11-30T10:20:49Z
+-------------------------------------------
+Commit SHA: 9768babfd8b22cc4bf131a94b9fc3b0af6c52b66
+Message: Fixed the distutils script to run when installed using easy_install and Pyrex is available.
+Author: Kirill Simonov
+Date: 2008-10-09T15:56:20Z
+-------------------------------------------
+Commit SHA: 2b9937bd049a37f6430e2fcb75125705ff08e463
+Message: Final touches in README.
+Author: Kirill Simonov
+Date: 2008-10-03T18:31:01Z
+-------------------------------------------
+Commit SHA: 5d943d1a155acd5f91a20b4da980292574cb6a1c
+Message: Dropped tests from the source distribution since LibYAML bindings do not pass them; updated README and announcement.msg; renamed 'yaml.__libyaml__' to 'yaml.__with_libyaml__'.
+Author: Kirill Simonov
+Date: 2008-10-03T18:24:11Z
+-------------------------------------------
+Commit SHA: f13e49291943fba5808e35fbff94db583e347737
+Message: Python 2.3 and win32 compatibility fixes in setup.py.
+Author: Kirill Simonov
+Date: 2008-10-02T02:40:48Z
+-------------------------------------------
+Commit SHA: c0d61333acfabbecdde833127466ed8c49d59ddf
+Message: Check if libyaml is installed before attempting to compile the libyaml bindings.
+Author: Kirill Simonov
+Date: 2008-10-02T00:24:42Z
+-------------------------------------------
+Commit SHA: 4692b60d88bd285d7f83c68ecda02bbbe55f9613
+Message: Added the script tests/test_all.py.
+Author: Kirill Simonov
+Date: 2008-10-01T23:16:55Z
+-------------------------------------------
+Commit SHA: be82996bc4113605ac978c6d72edc52ea800f3c5
+Message: Dropped setuptools-based setup.py in favor of custom distribution and build_ext command.
+Author: Kirill Simonov
+Date: 2008-10-01T23:16:09Z
+-------------------------------------------
+Commit SHA: 72189ab94b991707628553611bb1ec18d5594a09
+Message: Fixed include_dirs and library_dirs for the Windows build.
+Author: Kirill Simonov
+Date: 2008-09-30T14:55:28Z
+-------------------------------------------
+Commit SHA: 48da8081e626d47776c3802251e90948f18bb889
+Message: Updated the manifest file.
+Author: Kirill Simonov
+Date: 2008-09-30T14:37:49Z
+-------------------------------------------
+Commit SHA: 9bc561890cf27f2ad3e7facc92d74232e2f0989c
+Message: Updated announcement.msg.
+Author: Kirill Simonov
+Date: 2008-09-30T13:46:13Z
+-------------------------------------------
+Commit SHA: f20210c327694395ff41a69fd673f6e1d26cdc95
+Message: Added attributes ``yaml.__version__`` and ``yaml.__libyaml__`` (fixes #85).
+Author: Kirill Simonov
+Date: 2008-09-30T13:44:04Z
+-------------------------------------------
+Commit SHA: 61e06c4b7f39b07df40d717b113adee83acbb7ac
+Message: Added a setuptools installer 'ez_setup.py'.
+Author: Kirill Simonov
+Date: 2008-09-30T13:29:34Z
+-------------------------------------------
+Commit SHA: ffb46660cd8ddf5ee32828bed112de52a67bfe31
+Message: Updated Makefile to use 'setup.py --with-libyaml'.
+Author: Kirill Simonov
+Date: 2008-09-30T13:12:03Z
+-------------------------------------------
+Commit SHA: c61d0ceb80a9950cee6ce1c1ca799977d4030443
+Message: Updated README, announcement and MANIFEST files for the 3.06 release.
+Author: Kirill Simonov
+Date: 2008-09-30T13:08:14Z
+-------------------------------------------
+Commit SHA: 938ef71a68e8da1a2e9bd86644dd5e75750fa7cb
+Message: Updated setup.cfg to use the stable branch of libyaml; added Python 2.6 options.
+Author: Kirill Simonov
+Date: 2008-09-30T12:25:27Z
+-------------------------------------------
+Commit SHA: 3ded20780bb0304dbd0ce1220b60821959d6313e
+Message: Added a test for single dot being a float bug.
+Author: Kirill Simonov
+Date: 2008-09-30T11:56:14Z
+-------------------------------------------
+Commit SHA: a69b98b63f0a799544e4e32104a4df46db01775e
+Message: Use setuptools for setup.py.  Dropped setup_with_libyaml.py; to build libyaml bindings, use --with-libyaml.
+Author: Kirill Simonov
+Date: 2008-09-30T11:45:18Z
+-------------------------------------------
+Commit SHA: 487ac91791bb59e042c201171b3497e2a7173937
+Message: Fixed Python 2.3 compatibility (thanks to Julian Scheid for suggestion).
+Author: Kirill Simonov
+Date: 2008-07-29T20:52:49Z
+-------------------------------------------
+Commit SHA: 09e388aebb60d0a358a1be9b42c73d3250bffaee
+Message: Added a YAML lexer for Pygments.
+Author: Kirill Simonov
+Date: 2008-05-20T11:52:49Z
+-------------------------------------------
+Commit SHA: 073f08e9d9bd8e49ab8685f6ba954e1e10dc8fe7
+Message: A single dot is not a float value (fixes #62).
+Author: Kirill Simonov
+Date: 2007-11-18T00:47:32Z
+-------------------------------------------
+Commit SHA: 046f114050ff8861720da2d80290dc2d8517d655
+Message: Make compose() and load() ensure that the input stream contains a single document.  Fixes #54.
+Author: Kirill Simonov
+Date: 2007-08-21T20:25:34Z
+-------------------------------------------
+Commit SHA: 7b600d35e4d369c9cfac8759d86ead50fe8025d5
+Message: Fixed _yaml.pyx to work with the latest Pyrex.
+Author: Kirill Simonov
+Date: 2007-07-26T19:10:44Z
+-------------------------------------------
+Commit SHA: 93ec8bc45faf12c2906aba737b20832d775b5213
+Message: Added the setup.cfg options for building PyYAML Windows installer.
+Author: Kirill Simonov
+Date: 2007-05-12T21:41:42Z
+-------------------------------------------
+Commit SHA: e1d133ae334bf420a91fc49ffabe252bad833566
+Message: Update the package version.
+Author: Kirill Simonov
+Date: 2007-05-12T21:27:19Z
+-------------------------------------------
+Commit SHA: 804f9d8e58344698d845099a2c1869aee7d13262
+Message: Prepare the 3.05 release.
+Author: Kirill Simonov
+Date: 2007-05-12T20:33:09Z
+-------------------------------------------
+Commit SHA: dafd16438798b5e133d022a4b08601ec4ffc65d2
+Message: Allow for immutable subclasses of YAMLObject. Fixes #53.
+Author: Kirill Simonov
+Date: 2007-05-08T20:38:29Z
+-------------------------------------------
+Commit SHA: 69379ea21bc858b0ef7b4a6673b089ce0088017d
+Message: Make the encoding of the unicode->str conversion explicit; fix [52].
+Author: Kirill Simonov
+Date: 2007-05-05T19:03:39Z
+-------------------------------------------
+Commit SHA: 9eb838b97b35468cafa244fb118b43b90e04de46
+Message: Fixed a problem when the DOCUMENT-END event is not emitted until the beginning of the next document is available.  Fixed #51.  Thanks edward(at)sweetbytes.net for the bug report.
+Author: Kirill Simonov
+Date: 2007-04-17T17:39:13Z
+-------------------------------------------
+Commit SHA: 96fcba3d7f31a95842c69dd36f1dab0c0b92af7d
+Message: Improve output of float values. Fix #49.
+Author: Kirill Simonov
+Date: 2007-03-22T16:13:32Z
+-------------------------------------------
+Commit SHA: e5059a1d53fb550d402b5ebdb7e4514a1ca67c07
+Message: Add the tests for checking the libyaml bug.
+Author: Kirill Simonov
+Date: 2007-03-22T16:12:36Z
+-------------------------------------------
+Commit SHA: 04ff8e6fa1d8e0c27c344743147c69500b4dff66
+Message: Fix the bug when the `path` in `add_path_resolver` contains boolean values.  Fix #43 (thanks to jstroud(at)mbi.ucla.edu for reporting and pointing to the cause).
+Author: Kirill Simonov
+Date: 2007-02-23T20:45:35Z
+-------------------------------------------
+Commit SHA: 21483f22d705e2af7d00d9027774f5c7c7cef5c5
+Message: Use the types module instead of constructing type objects by hand. Fix #41. Thanks to v.haisman@sh.cvut.cz for the patch.
+Author: Kirill Simonov
+Date: 2006-12-08T15:36:53Z
+-------------------------------------------
+Commit SHA: ed79023a71fda81656d2495a1107a58741c2f476
+Message: Fix loss of microsecond precision in datetime.datetime constructor (fix #30).
+Thanks to edemaine@mit.edu for the bug report and the patch.
+Author: Kirill Simonov
+Date: 2006-10-04T07:42:50Z
+-------------------------------------------
+Commit SHA: cc9c7383421ecae60e4bd9dd138b9b72d4f81fac
+Message: Fix loading an empty YAML stream.
+Author: Kirill Simonov
+Date: 2006-09-12T13:53:30Z
+-------------------------------------------
+Commit SHA: fb2fd2a6b453a6a639b91c700435ea4a2b9b772f
+Message: Amend the announce message.
+Author: Kirill Simonov
+Date: 2006-08-20T18:26:02Z
+-------------------------------------------
+Commit SHA: be67e2df27a33f11511c6aef96ebb146f5ae41bc
+Message: Update README and the announcement message.
+Author: Kirill Simonov
+Date: 2006-08-20T10:41:50Z
+-------------------------------------------
+Commit SHA: 320c6976b9cc8efe43137c7c8579eb60e4ebaa58
+Message: Fix makefile and add setup.cfg.
+Author: Kirill Simonov
+Date: 2006-08-20T09:34:59Z
+-------------------------------------------
+Commit SHA: b4643e77c357dfb0e3c23f21b6b783b4daceee66
+Message: Fix a test to work under Python 2.3.
+Author: Kirill Simonov
+Date: 2006-08-20T09:10:47Z
+-------------------------------------------
+Commit SHA: 1710a8d1b6f078bbf293c256fa2e924568da65af
+Message: Preparing the next release.
+Author: Kirill Simonov
+Date: 2006-08-19T19:37:57Z
+-------------------------------------------
+Commit SHA: 8f9b8bed40a53c285ebfd2613ef5af00d2fc6b97
+Message: The 'N' plain scalar was still recognized as ``!!bool``. Fix it (close #26).
+Author: Kirill Simonov
+Date: 2006-08-16T21:07:47Z
+-------------------------------------------
+Commit SHA: 29413ea88ea02e1f48d4042a8819e8050ab625a3
+Message: Fix timestamp constructing and representing (close #25).
+Author: Kirill Simonov
+Date: 2006-08-16T18:22:38Z
+-------------------------------------------
+Commit SHA: 17fa129adad7bd5ed0dc57163cc13545b5d6e8bd
+Message: Completely rewrite the libyaml bindings.
+Author: Kirill Simonov
+Date: 2006-08-13T13:46:20Z
+-------------------------------------------
+Commit SHA: 8b083c6a96238ea1fd5eea1deb309ab72c041cef
+Message: Subclass all base classes from `object`.
+
+Hold references to the objects being represented (should fix #22).
+
+The value of a mapping node is represented as a list of pairs `(key, value)`
+now.
+
+Sort dictionary items (fix #23).
+
+Recursive structures are now loaded and dumped correctly, including complex
+structures like recursive tuples (fix #5). Thanks Peter Murphy for the patches.
+To make it possible, representer functions are allowed to be generators.
+In this case, the first generated value is an object. Other values produced
+by the representer are ignored.
+
+Make Representer not try to guess `!!pairs` when a list is represented.
+You need to construct a `!!pairs` node explicitly now.
+
+Do not check for duplicate mapping keys as it didn't work correctly anyway.
+Author: Kirill Simonov
+Date: 2006-08-03T16:07:29Z
+-------------------------------------------
+Commit SHA: 2e6c774c921c4f37569d6996e4a7a85f2783ae08
+Message: Fix a bug when a block scalar is incorrectly emitted in the simple key context.
+Author: Kirill Simonov
+Date: 2006-07-30T12:51:05Z
+-------------------------------------------
+Commit SHA: e4c1238d2f75e91810ae37c1e18bb887a72252be
+Message: Update libyaml bindings.
+Author: Kirill Simonov
+Date: 2006-07-21T13:52:03Z
+-------------------------------------------
+Commit SHA: 056fe5c72e6c332ffbd94475ec5df8156b6a9438
+Message: Fix a bug in Representer.represent_object: copy_reg.dispatch_table was not correctly handled.
+Author: Kirill Simonov
+Date: 2006-07-11T11:32:39Z
+-------------------------------------------
+Commit SHA: 6743cf6181c69ac3b08ff50ec6b4c8250fb5a101
+Message: Update PyRex based bindings to libyaml to include Parser functions.
+Author: Kirill Simonov
+Date: 2006-07-07T19:39:29Z
+-------------------------------------------
+Commit SHA: 95c8976b37428c048ea78c18be63c03897557c21
+Message: Fix some minor issues with the new Parser.
+Author: Kirill Simonov
+Date: 2006-07-07T19:38:53Z
+-------------------------------------------
+Commit SHA: 63fa1bd6fe5c817be93c9b4ac8bf2bcbe97ea79a
+Message: To make porting easier, rewrite Parser not using generators.
+
+Fix handling of unexpected block mapping values, like
+{{{
+: foo
+}}}
+
+Remove obsolete and unused {{{__iter__}}} functions.
+Author: Kirill Simonov
+Date: 2006-07-03T11:29:45Z
+-------------------------------------------
+Commit SHA: 27de2ba1fcd503b0949cae649ac4f9fc547a1c35
+Message: Fix invalid output of single-quoted scalars in cases when a single
+quote is not escaped when preceeded by whitespaces or line breaks.
+(Fix #17).
+Author: Kirill Simonov
+Date: 2006-06-30T08:10:36Z
+-------------------------------------------
+Commit SHA: 92243c675c1782dfc98f2a25fbe48d7f29fb96ad
+Message: Trying to make libyaml bindings faster.
+Author: Kirill Simonov
+Date: 2006-06-30T08:07:42Z
+-------------------------------------------
+Commit SHA: 4b48dcfb5fc3994b359b78205edd1fce18f10855
+Message: Add pyrex-based bindings for the libyaml scanner.
+Author: Kirill Simonov
+Date: 2006-06-19T20:30:29Z
+-------------------------------------------
+Commit SHA: 47b72d2be7e1d2345be05fcf53fa247fbddeeca5
+Message: Preparing the release: PyYAML-3.03
+Author: Kirill Simonov
+Date: 2006-06-19T16:30:56Z
+-------------------------------------------
+Commit SHA: 72992fe01c88a5b6bccb03a75a9498b4fe747ac2
+Message: Fix a typo in a plain scalar scanner.
+Author: Kirill Simonov
+Date: 2006-06-18T18:04:15Z
+-------------------------------------------
+Commit SHA: bcfc0b6ddaa1bc9760ce52ded3d38ba8bfd1840e
+Message: Fix several problems caused by ill-formed documents.
+
+The line number is not calculated correctly for DOS-style line breaks.
+
+Fix error reporting in '''remove_possible_simple_key'''. The problem is caused by the document:
+
+{{{
++foo: &A bar
++*A ]
+}}}
+
+Raise an error for a complex key which is not indented correctly, for instance:
+
+{{{
+? "foo"
+ : "bar"
+}}}
+Author: Kirill Simonov
+Date: 2006-06-16T07:23:05Z
+-------------------------------------------
+Commit SHA: d01a85fe5ce30f4bf34af4b9e97d69b77da3db38
+Message: Add ind and qnan values to a float test.
+Author: Kirill Simonov
+Date: 2006-05-24T15:45:38Z
+-------------------------------------------
+Commit SHA: e51f97dc02c2493d5ab4890c964692265afa4163
+Message: Optimize slightly the float constructor.
+Author: Kirill Simonov
+Date: 2006-05-22T20:00:11Z
+-------------------------------------------
+Commit SHA: a109c6bfcefddebafb0ccd1d08d14f18aece0422
+Message: Add a test case belonging to the previous commit.
+Author: Kirill Simonov
+Date: 2006-05-22T19:50:32Z
+-------------------------------------------
+Commit SHA: 500659ddd6ec308d2bfb3b8c9e8af5842fd2126f
+Message: Revamp the inf/nan handling again.
+Author: Kirill Simonov
+Date: 2006-05-22T19:49:54Z
+-------------------------------------------
+Commit SHA: ee2fb1c41d46fdc6b77b91808e72e8f18a88425f
+Message: Add a test case for #15.
+Author: Kirill Simonov
+Date: 2006-05-21T07:27:26Z
+-------------------------------------------
+Commit SHA: 149a437edac80810e4637799a0043f3f826fcd68
+Message: Fixed #15 (pyyaml discards '-' sign on negative floats).
+Thanks to alex_(a)_alexmole_(o)_co_(o)_uk for reporting the bug.
+Author: Kirill Simonov
+Date: 2006-05-21T07:26:05Z
+-------------------------------------------
+Commit SHA: 810977b41684f6734ca13a7a8dd178433297e895
+Message: Dynamically determine the inf and nan values. Should fix #14.
+Thanks to Scott Daniels for the report and the patch.
+Author: Kirill Simonov
+Date: 2006-05-15T18:43:58Z
+-------------------------------------------
+Commit SHA: eefe5f72418838a78518ddd439c8be57137b99a7
+Message: Final touches before the release.
+Author: Kirill Simonov
+Date: 2006-05-15T11:24:32Z
+-------------------------------------------
+Commit SHA: da8f3caa440b7dab22b9e4f88888bd65472d1127
+Message: Preparing the next release.
+Author: Kirill Simonov
+Date: 2006-05-15T06:49:37Z
+-------------------------------------------
+Commit SHA: f87fec835e17753e826d71925718f0476b7fe12d
+Message: Rename yaml-hl to yaml-highlight.
+Author: Kirill Simonov
+Date: 2006-05-15T06:49:03Z
+-------------------------------------------
+Commit SHA: 6fc24b438735ce532f19690f161296d89aef131a
+Message: Load yaml_hl.cfg from the script path.
+Author: Kirill Simonov
+Date: 2006-05-14T15:12:42Z
+-------------------------------------------
+Commit SHA: c3ab1fbdded61fef4574d16782fe789fc1a76968
+Message: Add the announcement message.
+Author: Kirill Simonov
+Date: 2006-05-12T09:17:39Z
+-------------------------------------------
+Commit SHA: d6940996496e0279f389ba3409707e9f24a71ff4
+Message: Remake the YAML highlighting example.
+Author: Kirill Simonov
+Date: 2006-05-12T09:14:33Z
+-------------------------------------------
+Commit SHA: 9bd0b4e5312c2fb05619a8301cfbf091bcae547e
+Message: Fix a bug in add_path_resolver: map -> dict.
+Author: Kirill Simonov
+Date: 2006-05-11T21:27:20Z
+-------------------------------------------
+Commit SHA: 8f22ae6de3dbc88d79ef5958511ec2e0ac9a4f47
+Message: Final touches before the initial release.
+Author: Kirill Simonov
+Date: 2006-05-07T14:36:42Z
+-------------------------------------------
+Commit SHA: 43ffedd470a1959438ebfad4145d4074e2ab3292
+Message: Allow first=None for add_implicit_resolver.
+Author: Kirill Simonov
+Date: 2006-05-07T14:02:42Z
+-------------------------------------------
+Commit SHA: dd2da8afa4ff7efd58b53f18cf0e51a1d7bafab0
+Message: Fix a bug in a test.
+Author: Kirill Simonov
+Date: 2006-05-06T22:12:53Z
+-------------------------------------------
+Commit SHA: 74f8caa6fb610cd287e71b658b4175aea5241d78
+Message: Fix #11 (Thanks to edemaine(at)mit.edu).
+Author: Kirill Simonov
+Date: 2006-05-06T22:09:50Z
+-------------------------------------------
+Commit SHA: 80ba45069506ccb2c8cd9d5a0276c16bd2dbe505
+Message: Add a way to override default style chosen by Representer: fix #9
+Author: Kirill Simonov
+Date: 2006-05-04T10:46:11Z
+-------------------------------------------
+Commit SHA: cd21dc64a99ed95d9f0b4338f51d735ae43475dc
+Message: 1e30000 => 1e300000
+Author: Kirill Simonov
+Date: 2006-04-23T18:13:32Z
+-------------------------------------------
+Commit SHA: 410d822bd5d2938620c8e50d25a55fe0dd927c7b
+Message: Prepare setup.py for release. Fix #7.
+Author: Kirill Simonov
+Date: 2006-04-23T18:07:52Z
+-------------------------------------------
+Commit SHA: fc0175590865ff237a744df3d6b54a5db0123329
+Message: Raise an error for colons in the flow context.
+Author: Kirill Simonov
+Date: 2006-04-23T13:40:57Z
+-------------------------------------------
+Commit SHA: e8eed6301be140814810cd1edc49a54db2b55b58
+Message: Sort object attributes.
+Author: Kirill Simonov
+Date: 2006-04-22T21:08:32Z
+-------------------------------------------
+Commit SHA: c87ce16706b38cb32e8c60bb6bcef65c8ac74bdc
+Message: Add support for pickling/unpickling python objects.
+Author: Kirill Simonov
+Date: 2006-04-22T20:40:43Z
+-------------------------------------------
+Commit SHA: cce15169da001621d42cd7f0178aa26fc3230c30
+Message: Fix !!python/name for Python 2.3. Clear the yaml module namespace.
+Author: Kirill Simonov
+Date: 2006-04-21T17:31:29Z
+-------------------------------------------
+Commit SHA: 93bb4703205166d49ced19c621bf120298018ddc
+Message: Fix yaml-hl to use the new API.
+Author: Kirill Simonov
+Date: 2006-04-20T16:48:21Z
+-------------------------------------------
+Commit SHA: 89cc4e3e4fcb8dd91cd0afcbdbb7fdd941fd7f13
+Message: Add more unit tests.
+Author: Kirill Simonov
+Date: 2006-04-18T19:33:30Z
+-------------------------------------------
+Commit SHA: 80ed3f1f57fa58a838aadbb14d7c9db849cd2d1d
+Message: Fix bugs in emitter and representer.
+Author: Kirill Simonov
+Date: 2006-04-18T19:33:16Z
+-------------------------------------------
+Commit SHA: c9aec90fdeb054062aa7ca1c99c266a457ddc8ff
+Message: Add support for recursive nodes to Composer. Constructor does not support recursive objects though.
+Author: Kirill Simonov
+Date: 2006-04-18T17:15:54Z
+-------------------------------------------
+Commit SHA: 95b3cef7eb3ebfe1c43df49fdf64fa45389865d5
+Message: Add more unit tests for error messages.
+Author: Kirill Simonov
+Date: 2006-04-18T16:48:00Z
+-------------------------------------------
+Commit SHA: 24f8ae0e005556d94990d3c5bebd925d4b159d1f
+Message: Rename error-message to loader-error and add new examples.
+Author: Kirill Simonov
+Date: 2006-04-18T14:35:46Z
+-------------------------------------------
+Commit SHA: 19e134b5e99e1fbdfae08efc6d2628d1ea1b2cf3
+Message: Add constructors for some simple python types.
+Author: Kirill Simonov
+Date: 2006-04-18T14:35:28Z
+-------------------------------------------
+Commit SHA: ea23091a5bf580a405a834b17802059fa80edfdd
+Message: Fix #4 (Thanks to murphy(at)rubychan.de)
+Author: Kirill Simonov
+Date: 2006-04-17T06:42:08Z
+-------------------------------------------
+Commit SHA: b12e7fea10d5f4b1d82c47a6d0c45387a15e3f0a
+Message: Refactor resolver.
+Author: Kirill Simonov
+Date: 2006-04-16T23:45:21Z
+-------------------------------------------
+Commit SHA: 6a97abb4c764b7428107908c850a24ed5f635d1f
+Message: Major refactoring.
+Author: Kirill Simonov
+Date: 2006-04-15T23:54:52Z
+-------------------------------------------
+Commit SHA: fcf5d614a9a2fa9e337ab0eeee82928c2eae913c
+Message: Fix allow_unicode (ticket:3).
+Author: Kirill Simonov
+Date: 2006-04-12T22:26:41Z
+-------------------------------------------
+Commit SHA: cc316a46994ad979c089b7b0f807310c6821e29b
+Message: Implement yaml.dump().
+Author: Kirill Simonov
+Date: 2006-04-11T00:34:16Z
+-------------------------------------------
+Commit SHA: 2d457ba718bf93b814f8acb78bbc00c20c54f397
+Message: Emitter is done!!!
+Author: Kirill Simonov
+Date: 2006-04-09T19:51:02Z
+-------------------------------------------
+Commit SHA: 01b5e1925ba4841f420176d40712ebe683e13c5d
+Message: Working on emitter: implement the state machine.
+Author: Kirill Simonov
+Date: 2006-04-03T23:23:10Z
+-------------------------------------------
+Commit SHA: 268bb76831da6e1abc7a1c3a41ffc67e3c838a24
+Message: Add style information to events generated by Parser.
+Author: Kirill Simonov
+Date: 2006-04-03T18:20:25Z
+-------------------------------------------
+Commit SHA: be2d1981fb9bc515cd7aa0f15b7b145a52535a11
+Message: Fix the project url.
+Author: Kirill Simonov
+Date: 2006-03-26T22:58:11Z
+-------------------------------------------
+Commit SHA: 3aa558459c3fbba2d492902227c44adb1764bdd9
+Message: Fix a test.
+Author: Kirill Simonov
+Date: 2006-03-19T15:42:44Z
+-------------------------------------------
+Commit SHA: d2e8000f099aeef8962f1b399c92a1e93f54f82d
+Message: Add an example: yaml highlight script.
+
+Usage:
+{{{
+$ cat your_yaml_document | ./yaml_hl.py                         # Produces colored ASCII output
+$ cat your_yaml_document | ./yaml_hl.py -c yaml_hl_html.cfg     # Produces HTML output.
+}}}
+Author: Kirill Simonov
+Date: 2006-03-19T15:41:32Z
+-------------------------------------------
+Commit SHA: 8973bb473bd5b974a7cabb210c7c0f8e1932f67a
+Message:  * Add the token STREAM-START.
+ * Add parsing events: STREAM-START, DOCUMENT-START, DOCUMENT-END.
+Author: Kirill Simonov
+Date: 2006-03-19T13:00:38Z
+-------------------------------------------
+Commit SHA: 6548cd6b67b6ebc686234167f2fb04aaf8edcda6
+Message: Loose indentation rules for the following cases:
+
+ * In the flow context, indentation level is not checked.
+ * For quoted scalars, indentation level is not checked.
+ * Flow scalars are not required to have at least 1 space indentation. Zero indentation is acceptable.
+Author: Kirill Simonov
+Date: 2006-03-19T01:30:05Z
+-------------------------------------------
+Commit SHA: 14ed697df4412c688afdc7b915a3ec5c0d2fb068
+Message: Back to work :). Rename markers to marks.
+Author: Kirill Simonov
+Date: 2006-03-18T13:37:09Z
+-------------------------------------------
+Commit SHA: 7c384c7e51e7d69f61f524bfc4328662b1ee2adf
+Message: Rename pyyaml-ng to ppyyaml to make it simpler.
+Author: Kirill Simonov
+Date: 2006-03-05T22:19:08Z
+-------------------------------------------
+Commit SHA: 4c570faa8bc4608609f0e531452f9941e4a272b3
+Message: Move pyyaml3000 to a separate directory.
+Author: Kirill Simonov
+Date: 2006-03-04T22:43:48Z
+-------------------------------------------
