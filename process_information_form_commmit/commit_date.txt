@@ -1,0 +1,537 @@
+Date: 2006-03-04
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2006-03-05
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2006-03-18
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2006-03-19
+  Total Commits: 4
+    Kirill Simonov: 4
+Date: 2006-03-26
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2006-04-03
+  Total Commits: 2
+    Kirill Simonov: 2
+Date: 2006-04-09
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2006-04-11
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2006-04-12
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2006-04-15
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2006-04-16
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2006-04-17
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2006-04-18
+  Total Commits: 6
+    Kirill Simonov: 6
+Date: 2006-04-20
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2006-04-21
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2006-04-22
+  Total Commits: 2
+    Kirill Simonov: 2
+Date: 2006-04-23
+  Total Commits: 3
+    Kirill Simonov: 3
+Date: 2006-05-04
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2006-05-06
+  Total Commits: 2
+    Kirill Simonov: 2
+Date: 2006-05-07
+  Total Commits: 2
+    Kirill Simonov: 2
+Date: 2006-05-11
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2006-05-12
+  Total Commits: 2
+    Kirill Simonov: 2
+Date: 2006-05-14
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2006-05-15
+  Total Commits: 4
+    Kirill Simonov: 4
+Date: 2006-05-21
+  Total Commits: 2
+    Kirill Simonov: 2
+Date: 2006-05-22
+  Total Commits: 3
+    Kirill Simonov: 3
+Date: 2006-05-24
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2006-06-16
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2006-06-18
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2006-06-19
+  Total Commits: 2
+    Kirill Simonov: 2
+Date: 2006-06-30
+  Total Commits: 2
+    Kirill Simonov: 2
+Date: 2006-07-03
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2006-07-07
+  Total Commits: 2
+    Kirill Simonov: 2
+Date: 2006-07-11
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2006-07-21
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2006-07-30
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2006-08-03
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2006-08-13
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2006-08-16
+  Total Commits: 2
+    Kirill Simonov: 2
+Date: 2006-08-19
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2006-08-20
+  Total Commits: 4
+    Kirill Simonov: 4
+Date: 2006-09-12
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2006-10-04
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2006-12-08
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2007-02-23
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2007-03-22
+  Total Commits: 2
+    Kirill Simonov: 2
+Date: 2007-04-17
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2007-05-05
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2007-05-08
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2007-05-12
+  Total Commits: 3
+    Kirill Simonov: 3
+Date: 2007-07-26
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2007-08-21
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2007-11-18
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2008-05-20
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2008-07-29
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2008-09-30
+  Total Commits: 10
+    Kirill Simonov: 10
+Date: 2008-10-01
+  Total Commits: 2
+    Kirill Simonov: 2
+Date: 2008-10-02
+  Total Commits: 2
+    Kirill Simonov: 2
+Date: 2008-10-03
+  Total Commits: 2
+    Kirill Simonov: 2
+Date: 2008-10-09
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2008-11-30
+  Total Commits: 4
+    Kirill Simonov: 4
+Date: 2008-12-04
+  Total Commits: 2
+    Kirill Simonov: 2
+Date: 2008-12-05
+  Total Commits: 2
+    Kirill Simonov: 2
+Date: 2008-12-08
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2008-12-27
+  Total Commits: 6
+    Kirill Simonov: 6
+Date: 2008-12-28
+  Total Commits: 4
+    Kirill Simonov: 4
+Date: 2008-12-29
+  Total Commits: 4
+    Kirill Simonov: 4
+Date: 2008-12-30
+  Total Commits: 7
+    Kirill Simonov: 7
+Date: 2008-12-31
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2009-02-23
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2009-03-28
+  Total Commits: 2
+    Kirill Simonov: 2
+Date: 2009-08-29
+  Total Commits: 7
+    Kirill Simonov: 7
+Date: 2009-08-30
+  Total Commits: 4
+    Kirill Simonov: 4
+Date: 2009-08-31
+  Total Commits: 3
+    Kirill Simonov: 3
+Date: 2011-05-29
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2011-05-30
+  Total Commits: 5
+    Kirill Simonov: 5
+Date: 2012-12-24
+  Total Commits: 1
+    convert-repo: 1
+Date: 2014-03-27
+  Total Commits: 2
+    Kirill Simonov: 2
+Date: 2014-11-28
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2015-04-04
+  Total Commits: 1
+    Pablo Santiago Blum de Aguiar: 1
+Date: 2016-06-16
+  Total Commits: 3
+    Kirill Simonov: 3
+Date: 2016-06-17
+  Total Commits: 2
+    Kirill Simonov: 2
+Date: 2016-08-25
+  Total Commits: 5
+    Kirill Simonov: 5
+Date: 2016-08-26
+  Total Commits: 3
+    Kirill Simonov: 3
+Date: 2016-08-27
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2016-08-28
+  Total Commits: 1
+    Kirill Simonov: 1
+Date: 2016-09-12
+  Total Commits: 3
+    Donald Stufft: 3
+Date: 2016-11-23
+  Total Commits: 1
+    Ian Cordasco: 1
+Date: 2017-01-22
+  Total Commits: 1
+    Jakub Wilk: 1
+Date: 2017-02-08
+  Total Commits: 1
+    Daniel Beer: 1
+Date: 2017-03-01
+  Total Commits: 1
+    Timofei Bondarev: 1
+Date: 2017-03-28
+  Total Commits: 1
+    psanchez: 1
+Date: 2017-04-16
+  Total Commits: 3
+    Jon Dufresne: 3
+Date: 2017-05-06
+  Total Commits: 1
+    Peter Murphy: 1
+Date: 2017-05-08
+  Total Commits: 1
+    Peter Murphy: 1
+Date: 2017-05-09
+  Total Commits: 3
+    Peter Murphy: 3
+Date: 2017-08-26
+  Total Commits: 3
+    Alex Gaynor: 3
+Date: 2017-08-27
+  Total Commits: 1
+    hsmtkk: 1
+Date: 2017-09-08
+  Total Commits: 1
+    Donald Stufft: 1
+Date: 2017-10-08
+  Total Commits: 1
+    hugovk: 1
+Date: 2017-11-26
+  Total Commits: 1
+    Jon Dufresne: 1
+Date: 2017-12-16
+  Total Commits: 1
+    Jon Dufresne: 1
+Date: 2018-01-31
+  Total Commits: 1
+    Hugo: 1
+Date: 2018-02-04
+  Total Commits: 1
+    scauligi: 1
+Date: 2018-03-16
+  Total Commits: 1
+    Tina Müller: 1
+Date: 2018-03-28
+  Total Commits: 1
+    Andrey Somov: 1
+Date: 2018-04-10
+  Total Commits: 1
+    Ingy döt Net: 1
+Date: 2018-04-15
+  Total Commits: 1
+    Tina Müller: 1
+Date: 2018-06-24
+  Total Commits: 1
+    Ingy döt Net: 1
+Date: 2018-06-25
+  Total Commits: 1
+    Alex Gaynor: 1
+Date: 2018-06-27
+  Total Commits: 1
+    Florian Bruhin: 1
+Date: 2018-06-28
+  Total Commits: 2
+    Anthony Sottile: 1
+    Tina Müller: 1
+Date: 2018-06-29
+  Total Commits: 2
+    Ingy döt Net: 1
+    Tina Müller: 1
+Date: 2019-02-18
+  Total Commits: 1
+    Ingy döt Net: 1
+Date: 2019-02-23
+  Total Commits: 2
+    Tina Müller: 2
+Date: 2019-02-24
+  Total Commits: 1
+    Matt Davis: 1
+Date: 2019-03-07
+  Total Commits: 2
+    Tina Müller: 1
+    Ingy döt Net: 1
+Date: 2019-03-12
+  Total Commits: 1
+    Matt Davis: 1
+Date: 2019-03-13
+  Total Commits: 1
+    Ingy döt Net: 1
+Date: 2019-03-15
+  Total Commits: 1
+    David Kao: 1
+Date: 2019-03-19
+  Total Commits: 1
+    Ingy döt Net: 1
+Date: 2019-03-31
+  Total Commits: 3
+    Tina Müller (tinita): 3
+Date: 2019-04-11
+  Total Commits: 1
+    Sergey Fursov: 1
+Date: 2019-06-06
+  Total Commits: 1
+    Matt Davis: 1
+Date: 2019-06-11
+  Total Commits: 1
+    Tina Müller: 1
+Date: 2019-06-24
+  Total Commits: 1
+    Tim Gates: 1
+Date: 2019-07-31
+  Total Commits: 1
+    Matt Davis: 1
+Date: 2019-08-05
+  Total Commits: 1
+    Tim Hoffmann: 1
+Date: 2019-11-09
+  Total Commits: 4
+    Christian Clauss: 4
+Date: 2019-11-18
+  Total Commits: 1
+    Tina Müller: 1
+Date: 2019-11-21
+  Total Commits: 2
+    Tina Müller: 1
+    Matt Davis: 1
+Date: 2019-11-26
+  Total Commits: 1
+    Matt Davis: 1
+Date: 2019-12-02
+  Total Commits: 2
+    Tina Müller: 2
+Date: 2019-12-07
+  Total Commits: 3
+    sblondon: 1
+    Tina Müller (tinita): 1
+    Filip Salomonsson: 1
+Date: 2019-12-08
+  Total Commits: 4
+    Jon Dufresne: 1
+    Tina Müller (tinita): 1
+    Tina Müller: 1
+    Anish Athalye: 1
+Date: 2019-12-09
+  Total Commits: 1
+    Hugo van Kemenade: 1
+Date: 2019-12-13
+  Total Commits: 3
+    Tina Müller: 1
+    Frédéric Chapoton: 1
+    Dwight Guth: 1
+Date: 2019-12-15
+  Total Commits: 1
+    Mattijs Ugen: 1
+Date: 2019-12-16
+  Total Commits: 1
+    Tina Müller (tinita): 1
+Date: 2019-12-20
+  Total Commits: 1
+    Tina Müller: 1
+Date: 2020-01-06
+  Total Commits: 2
+    Tina Müller: 2
+Date: 2020-01-22
+  Total Commits: 1
+    Anish Athalye: 1
+Date: 2020-03-17
+  Total Commits: 2
+    Tina Müller: 1
+    Riccardo Schirone: 1
+Date: 2020-03-18
+  Total Commits: 2
+    Tina Müller: 1
+    Ingy döt Net: 1
+Date: 2020-03-19
+  Total Commits: 1
+    ossdev07: 1
+Date: 2020-03-31
+  Total Commits: 1
+    Tina Müller: 1
+Date: 2020-04-06
+  Total Commits: 1
+    Ovv: 1
+Date: 2020-09-18
+  Total Commits: 1
+    Phil Sphicas: 1
+Date: 2020-11-19
+  Total Commits: 1
+    Ingy döt Net: 1
+Date: 2020-12-12
+  Total Commits: 1
+    Brad Solomon: 1
+Date: 2020-12-23
+  Total Commits: 12
+    Ingy döt Net: 12
+Date: 2021-01-09
+  Total Commits: 1
+    Ingy döt Net: 1
+Date: 2021-01-13
+  Total Commits: 1
+    Matt Davis: 1
+Date: 2021-01-19
+  Total Commits: 1
+    Ingy döt Net: 1
+Date: 2021-01-20
+  Total Commits: 2
+    Ingy döt Net: 1
+    Matt Davis: 1
+Date: 2021-02-05
+  Total Commits: 1
+    Tina Müller: 1
+Date: 2021-03-06
+  Total Commits: 1
+    Matt Davis: 1
+Date: 2021-09-02
+  Total Commits: 5
+    Thom Smith: 5
+Date: 2021-09-05
+  Total Commits: 1
+    Thomas Smith: 1
+Date: 2021-09-21
+  Total Commits: 2
+    Tina Müller: 1
+    Thom Smith: 1
+Date: 2021-09-22
+  Total Commits: 8
+    Pantelis Antoniou: 4
+    Thom Smith: 3
+    Ingy döt Net: 1
+Date: 2021-09-23
+  Total Commits: 5
+    Ingy döt Net: 3
+    Matt Davis: 2
+Date: 2021-09-29
+  Total Commits: 1
+    Matt Davis: 1
+Date: 2021-10-13
+  Total Commits: 3
+    Matt Davis: 3
+Date: 2021-11-25
+  Total Commits: 1
+    Matt Davis: 1
+Date: 2022-07-11
+  Total Commits: 1
+    Matt Davis: 1
+Date: 2022-09-13
+  Total Commits: 1
+    Matthieu Darbois: 1
+Date: 2023-07-17
+  Total Commits: 2
+    Matt Davis: 2
+Date: 2023-08-10
+  Total Commits: 1
+    Matt Davis: 1
+Date: 2023-08-29
+  Total Commits: 1
+    Matt Davis: 1
+Date: 2023-11-14
+  Total Commits: 1
+    Matt Davis: 1
+Date: 2024-06-10
+  Total Commits: 1
+    Matt Davis: 1
+Date: 2024-08-06
+  Total Commits: 2
+    Matt Davis: 2

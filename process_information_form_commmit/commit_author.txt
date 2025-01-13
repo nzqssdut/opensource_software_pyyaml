@@ -1,0 +1,44 @@
+Kirill Simonov: 175
+Ingy döt Net: 28
+Matt Davis: 25
+Tina Müller: 22
+Thom Smith: 9
+Tina Müller (tinita): 6
+Jon Dufresne: 6
+Peter Murphy: 5
+Pantelis Antoniou: 4
+Christian Clauss: 4
+Alex Gaynor: 4
+Donald Stufft: 4
+Anish Athalye: 2
+Matthieu Darbois: 1
+Thomas Smith: 1
+Tim Hoffmann: 1
+Ovv: 1
+Phil Sphicas: 1
+Brad Solomon: 1
+ossdev07: 1
+Riccardo Schirone: 1
+Mattijs Ugen: 1
+Frédéric Chapoton: 1
+Dwight Guth: 1
+Hugo van Kemenade: 1
+sblondon: 1
+Filip Salomonsson: 1
+Tim Gates: 1
+Sergey Fursov: 1
+David Kao: 1
+scauligi: 1
+Florian Bruhin: 1
+Anthony Sottile: 1
+hugovk: 1
+Hugo: 1
+Andrey Somov: 1
+hsmtkk: 1
+Jakub Wilk: 1
+Timofei Bondarev: 1
+psanchez: 1
+Daniel Beer: 1
+Ian Cordasco: 1
+Pablo Santiago Blum de Aguiar: 1
+convert-repo: 1
