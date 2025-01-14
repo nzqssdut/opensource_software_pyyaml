@@ -47,10 +47,10 @@ def process_commit_file(input_file, author_output_file, date_output_file):
 
 
 # 配置文件名
-input_file = "PyyamlCommit.txt"
-author_output_file = "commit_author.txt"
-date_output_file = "commit_date.txt"
+input_file = "./data/PyyamlCommit.txt"
+author_output_file = "./data/commit_author.txt"
+date_output_file = "./data/commit_date.txt"
 
 # 调用处理函数
 process_commit_file(input_file, author_output_file, date_output_file)
-print("统计完成，结果已保存到 commit_author.txt 和 commit_date.txt")
+print("统计完成，结果已保存到 ./data/commit_author.txt 和 ./data/commit_date.txt")

@@ -63,10 +63,10 @@ def visualize_date_data(date_data, output_file):
 
 
 # 文件路径和输出文件
-commit_author_file = "commit_author.txt"
-commit_date_file = "commit_date.txt"
-author_output_image = "commit_author_bar_chart.png"
-date_output_image = "commit_date_scatter_plot.png"
+commit_author_file = "data/commit_author.txt"
+commit_date_file = "data/commit_date.txt"
+author_output_image = "data/commit_author_bar_chart.png"
+date_output_image = "data/commit_date_scatter_plot.png"
 
 # 执行方法
 author_data = read_commit_author(commit_author_file)

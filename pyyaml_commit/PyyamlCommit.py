@@ -74,7 +74,7 @@ for commit in commits:
     data = f"Commit SHA: {sha}\nMessage: {message}\nAuthor: {author}\nDate: {date}\n-------------------------------------------\n"
     data_to_write += data
 
-with open('PyyamlCommit.txt', 'w', encoding='utf-8') as f:
+with open('data/PyyamlCommit.txt', 'w', encoding='utf-8') as f:
     f.write(data_to_write)
 
 print(f"Total commits fetched: {len(commits)}")

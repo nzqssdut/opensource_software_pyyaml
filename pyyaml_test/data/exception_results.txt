@@ -1,0 +1,14 @@
+{
+    "test": "Invalid YAML Format",
+    "result": "Passed",
+    "error": "while scanning a simple key\n  in \"<unicode string>\", line 2, column 1:\n    key2 value2\n    ^\ncould not find expected ':'\n  in \"<unicode string>\", line 2, column 12:\n    key2 value2\n               ^"
+}
+{
+    "test": "Deeply Nested Structure",
+    "result": "Failed",
+    "error": "maximum recursion depth exceeded"
+}
+{
+    "test": "Special Character",
+    "result": "Passed"
+}
