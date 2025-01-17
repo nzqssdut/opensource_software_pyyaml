@@ -1,0 +1,4165 @@
+Issue title: Complete representation graph implementation
+username: colltoaction
+usertype: User
+state: open
+-------------------------------------------
+Issue title: feat: Add value representer to `enum.StrEnum` type
+username: rapsealk
+usertype: User
+state: open
+-------------------------------------------
+Issue title: pyymal 5.4.1 will not install whatsoever, been here on same step for days.
+username: paymepaI
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Proposal to Adjust Colon Handling in Tags, Enable Literal Style for Tagged Values
+username: JoshDreamland
+usertype: User
+state: open
+-------------------------------------------
+Issue title: make style=... consistent for unquoted scalar tokens
+username: asottile
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Documentation abandoned?
+username: AllanDaemon
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Update homepage URL
+username: akirataguchi115
+usertype: User
+state: open
+-------------------------------------------
+Issue title: When using different dumpers with yaml.dump, disk flushing behavior is inconsistent.
+username: mark007
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Can't serialize ZoneInfo
+username: guillaumematheron
+usertype: User
+state: open
+-------------------------------------------
+Issue title: yaml.dump(torch.float32) produces a ValueError from Representer.represent_object
+username: vttrifonov
+usertype: User
+state: open
+-------------------------------------------
+Issue title: fix: don't import deprecated "wheel" (just to do nothing with it)
+username: henryiii
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Default to literal style for multiline strings
+username: perlpunk
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Fix bug with resolving merging scalars
+username: sergey-gru
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Custom tags are evaluated after solving the union operators. But they must be calculated before them.
+username: sergey-gru
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Correction of comments
+username: mukaiizawa
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Publishing possible security issues
+username: fuzzah
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Tabs indentation support
+username: kripper
+usertype: User
+state: open
+-------------------------------------------
+Issue title: add yaml.tool similar to json.tool
+username: doc-sheet
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Instant of custom python class as value
+username: adosar
+usertype: User
+state: open
+-------------------------------------------
+Issue title: "Y" does not round-trip in practice
+username: sjshuck
+usertype: User
+state: open
+-------------------------------------------
+Issue title: [Joke Issue] Attempt to write the most complex YAML file in human history
+username: Evil0ctal
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Depth first firing of generators
+username: expl-info
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Yaml on dumping giving different result
+username: sorreu99
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Follow pep8 guidelines around use of "not in"
+username: alexmac
+usertype: User
+state: open
+-------------------------------------------
+Issue title: bugfix: yaml default mapping value resolver breaks parsing of simple string lists
+username: tuunit
+usertype: User
+state: open
+-------------------------------------------
+Issue title: yaml dump outputs not-to-spec keys
+username: zack-littke-smith-ai
+usertype: User
+state: open
+-------------------------------------------
+Issue title: CSafeDumper doesn't appear to respect `allow_unicode=True`
+username: indrat
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Add supported interpreters to tox.ini
+username: Jamim
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Support `str` subclasses in libyaml extension
+username: nitzmahone
+usertype: User
+state: open
+-------------------------------------------
+Issue title: [WIP] nested class support
+username: nitzmahone
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Update Makefile
+username: ingydotnet
+usertype: User
+state: open
+-------------------------------------------
+Issue title: ci: set minimal permissions to GitHub workflows
+username: diogoteles08
+usertype: User
+state: open
+-------------------------------------------
+Issue title: fix indent
+username: heso
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Forces the Anchor to be emitted when dumping, even if the node is not referenced later?
+username: Floweroid
+usertype: User
+state: open
+-------------------------------------------
+Issue title: `[\?]` fails to parse in `Loader` but works in `CLoader`
+username: silverwind
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Documentation of exception types
+username: IllDepence
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Fix typo in emitter attr name
+username: nitzmahone
+usertype: User
+state: open
+-------------------------------------------
+Issue title: fix dumping of empty YAMLObject on Python 3.11+
+username: nitzmahone
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Fix assert in test for yaml.load
+username: kulikjak
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Preserve single quote in output
+username: jerryhxu
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Set permissions for Github Workflows
+username: joycebrum
+usertype: User
+state: open
+-------------------------------------------
+Issue title: [WORKAROUND] Unable to build PyYAML < 6.0.1 from source or sdist
+username: nitzmahone
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Documentation on exception handling syntax error
+username: dubidubno
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Support for `enum.StrEnum`
+username: trim21
+usertype: User
+state: open
+-------------------------------------------
+Issue title: newline is incorrect
+username: CalK16
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Can PyYAML benefit from PEP 703 (making the GIL optional)?
+username: gabrieldemarmiesse
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Fix scanner - ignore trailing tabs
+username: eihli
+usertype: User
+state: open
+-------------------------------------------
+Issue title: released from pypi do not have PPC architecture included
+username: ashwinik30
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Enable ppc64le wheels 
+username: mgiessing
+usertype: User
+state: open
+-------------------------------------------
+Issue title: [WIP] new config system, 1.2 tagset support
+username: nitzmahone
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Handle top level yaml property `on`
+username: wsams
+usertype: User
+state: open
+-------------------------------------------
+Issue title: sdist is missing tox.ini
+username: mtelka
+usertype: User
+state: open
+-------------------------------------------
+Issue title: dumping enum not producing expected result
+username: Yannik
+usertype: User
+state: open
+-------------------------------------------
+Issue title: How to dump the formats Fold (>) or Block (|) using the pyyaml 
+username: krishna3008
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Dumping an object with no attribute crashes
+username: lwinkler
+usertype: User
+state: open
+-------------------------------------------
+Issue title: prevent ImportWarning on pypy
+username: nitzmahone
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Please remove outdated "News" from website
+username: intgr
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Read-only file system preventing installation?
+username: ebeyak
+usertype: User
+state: open
+-------------------------------------------
+Issue title: PEP8 fixes
+username: e-kwsm
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Complex mapping keys can not be loaded
+username: majkrzak
+usertype: User
+state: open
+-------------------------------------------
+Issue title: If you serialize a folded scalar with a long indented line, you get incorrect whitespace
+username: ben-g-
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Support and option to allow underscores in integers
+username: ingydotnet
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Add callable sort key functionality to sort_keys
+username: sparr
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Will YAML dicts always be "Ordereddict"?
+username: papadeltasierra
+usertype: User
+state: open
+-------------------------------------------
+Issue title: yaml.load docstring doesn't imply it will only handle single-document streams
+username: nbrunett
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Documentation out of date?
+username: alphaniner
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Loading & dumping yaml, preserving tags
+username: kosta
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Deep construction for maps
+username: ivannp
+usertype: User
+state: open
+-------------------------------------------
+Issue title: update address of official website
+username: shouhuanxiaoji
+usertype: User
+state: open
+-------------------------------------------
+Issue title: README.md: HTTP => HTTPS
+username: Schweinepriester
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Fix link to homepage
+username: jugmac00
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Replace import * with explicit imports
+username: Erotemic
+usertype: User
+state: open
+-------------------------------------------
+Issue title: fix grammatical error
+username: japrozs
+usertype: User
+state: open
+-------------------------------------------
+Issue title: [BUG]RecursionError  happened during fuzzing
+username: baltsers
+usertype: User
+state: open
+-------------------------------------------
+Issue title: ISO 8601 coverage
+username: captn3m0
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Add a `value` builtin constructor to handle the `=` sign
+username: jonapich
+usertype: User
+state: open
+-------------------------------------------
+Issue title: BUG: ValueError: chr() arg not in range(0x110000)
+username: beidasoft-cobot-oss-fuzz
+usertype: User
+state: open
+-------------------------------------------
+Issue title: how to include yaml files?
+username: flixman
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Incorrect rounding when loading base 60 floats
+username: notcake
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Universal binary support for MacOS
+username: ShaiWavesAudio
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Added exception handling in setup.py if pathlib is not installed
+username: elioskmil
+usertype: User
+state: open
+-------------------------------------------
+Issue title: fix license issue. Add license check pre-commit hooks.
+username: src-r-r
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Loading nested object as key
+username: rhelmot
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Fix include path issue for libyaml
+username: karolyi
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Mapping can be a key in YAML
+username: sergio-nsk
+usertype: User
+state: open
+-------------------------------------------
+Issue title: dump with encoding="utf8" produces "latin"-encoded bytes
+username: cknoll
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Octal numbers processed as strings
+username: ioggstream
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Correct usage of `.add_path_resolver`
+username: matan129
+usertype: User
+state: open
+-------------------------------------------
+Issue title: PyYAML 5.3 & 6.0 -- RecursionError: maximum recursion depth exceeded in comparison
+username: wellsonah2019
+usertype: User
+state: open
+-------------------------------------------
+Issue title: "AttributeError: cython_sources" with Cython 3.0.0a10
+username: The-Compiler
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Change License year to 2022
+username: anirudhlakhotia
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Add strict_whitespace implementation for cleaner multiline scalars
+username: tgherzog
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Remove some commented code.
+username: ebram96
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Parsing of trailing TAB works differently for Python and C
+username: asomov
+usertype: User
+state: open
+-------------------------------------------
+Issue title: yaml.load RecursionError: maximum recursion depth exceeded
+username: netquik
+usertype: User
+state: open
+-------------------------------------------
+Issue title: `CDumper` and `Dumper` generate inconsistent output 
+username: jiasli
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Clarify that YAML 1.2 is not supported
+username: gdubicki
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Added style checks on emitter method. Related to #401
+username: athossampayo
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Update "tutorial and reference" link to HTTPS in README
+username: xdavidhu
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Setting `SETUPTOOLS_USE_DISTUTILS` in `setup.py`?
+username: jakirkham
+usertype: User
+state: open
+-------------------------------------------
+Issue title: NOMERGE initial exploration with typehints, static typing with mypy
+username: adehad
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Incorporate user documentation to README
+username: adehad
+usertype: User
+state: open
+-------------------------------------------
+Issue title: PyYAML 6 missing from various places
+username: prescod
+usertype: User
+state: open
+-------------------------------------------
+Issue title: PyYAML 6.0 load() function requires Loader argument
+username: aviasd
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Use double quotes to avoid single quote escape
+username: tdegeus
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Add equality comparison
+username: InigoMoreno
+usertype: User
+state: open
+-------------------------------------------
+Issue title: No equality operator on yaml.Node
+username: InigoMoreno
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Set Cython compiler directive language_level=3
+username: bsolomon1124
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Loader dumper objects api
+username: ingydotnet
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Initial drop of libfyaml based backend.
+username: pantoniou
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Support for the YAML 1.2 Core and JSON schemas [Take 2]
+username: perlpunk
+usertype: User
+state: open
+-------------------------------------------
+Issue title: More characters in a line than `width` argument
+username: ryosuketc
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Is there a way to stop/remove constructors?
+username: driesceuppens
+usertype: User
+state: open
+-------------------------------------------
+Issue title: the safe_dump created yaml files cannot pass yamllint check
+username: braindevices
+usertype: User
+state: open
+-------------------------------------------
+Issue title: pyyaml failed to load python objects with full loader
+username: HappyRay
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Complex numbers
+username: felix92
+usertype: User
+state: open
+-------------------------------------------
+Issue title: SafeLoader should support !!python/unicode tags
+username: bluenote10
+usertype: User
+state: open
+-------------------------------------------
+Issue title: I don't want Anchors Point. What should I do?
+username: qwerplf
+usertype: User
+state: open
+-------------------------------------------
+Issue title: ImportWarning after building from source on PyPy 3.7
+username: domdfcoding
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Add range to FullLoader / FullConstructor
+username: zeeMonkeez
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Custom constructors with nested YAML
+username: kwon-young
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Binary Wheels for PyPy
+username: jcpunk
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Update and rename README to README.md
+username: XavierJiezou
+usertype: User
+state: open
+-------------------------------------------
+Issue title: How does parameter `default_style` work?
+username: yanghanlin
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Issue with default_style and lines that include \n
+username: DeeeeLAN
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Format Readme using Markdown
+username: joelibaceta
+usertype: User
+state: open
+-------------------------------------------
+Issue title: PEP to add yaml to standard library?
+username: znd4
+usertype: User
+state: open
+-------------------------------------------
+Issue title: TypeError: __reduce_ex__() takes exactly one argument (0 given) 
+username: dcsan
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Misleading documentation: Constructors, representers, resolvers
+username: maltekliemann
+usertype: User
+state: open
+-------------------------------------------
+Issue title: API Documentation Woefully Incomplete
+username: macdjord
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Bug: representer emits bad name
+username: omicronZero
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Bug: __setstate__ not called due to value evaluating to False
+username: omicronZero
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Escape %
+username: Tusenka
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Add method to check mapping key
+username: blag
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Add method to construct mapping key
+username: blag
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Use pip in the Makefile, like the packaging/build scripts already do.
+username: dHannasch
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Install before test.
+username: dHannasch
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Add .tox to .gitignore.
+username: dHannasch
+usertype: User
+state: open
+-------------------------------------------
+Issue title: First pass at attempting to parse YAML 1.2
+username: dHannasch
+usertype: User
+state: open
+-------------------------------------------
+Issue title: CHANGES should document Python 3.5 dropped as of release 5.4
+username: trawick
+usertype: User
+state: open
+-------------------------------------------
+Issue title: YAML 1.2 Core Schema support (about yes/no, on/off, 07 vs 08)
+username: perlpunk
+usertype: User
+state: open
+-------------------------------------------
+Issue title: flow style and line split
+username: jimy-byerley
+usertype: User
+state: open
+-------------------------------------------
+Issue title: move binary parts to beginning?
+username: allefeld
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Format README as Markdown
+username: mfhepp
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Online documentation outdated?
+username: markbourne
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Continuous fuzzing of pyyaml by way of OSS-Fuzz
+username: DavidKorczynski
+usertype: User
+state: open
+-------------------------------------------
+Issue title: add_implicit_resolver does not match quoted strings
+username: att14
+usertype: User
+state: open
+-------------------------------------------
+Issue title: ENH: Keep information about line numbers
+username: quazgar
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Using pyyaml in my projects causes Snyk to fail
+username: hpasapp
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Bug "Found character that cannot start any token" with trailing tab character.
+username: garretwilson
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Unclear documentation: What can be safely loaded?
+username: xuhdev
+usertype: User
+state: open
+-------------------------------------------
+Issue title: 5.3.1: compile time warnings
+username: kloczek
+usertype: User
+state: open
+-------------------------------------------
+Issue title: CSafeLoader fails to load 
+username: Dbandfield
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Support the explicit_end option for scalar according to YAML 1.2
+username: dota17
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Automatically use LibYAML bindings if they are available (or easily enable globally)
+username: psphicas
+usertype: User
+state: open
+-------------------------------------------
+Issue title: deregister representer
+username: casperdcl
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Handle the wrong datetime properly.
+username: dota17
+usertype: User
+state: open
+-------------------------------------------
+Issue title: The tag ! is not parsed properly
+username: Alanscut
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Emit the correct indentation of sequence
+username: dota17
+usertype: User
+state: open
+-------------------------------------------
+Issue title: adding support for ppc64le
+username: ezeeyahoo
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Fix get_single_data when not used in stream start
+username: kmaork
+usertype: User
+state: open
+-------------------------------------------
+Issue title: C extensions don't build with nightly Python 3.10
+username: The-Compiler
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Wheel support for aarch64
+username: odidev
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Include options in loader
+username: PS-OnGit
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Weird dumping when a literal block scalar contains trailing space
+username: lhotakj
+usertype: User
+state: open
+-------------------------------------------
+Issue title: language_level should be set in pyx files
+username: bsolomon1124
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Don't sort keys by default
+username: dingens
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Inconsistent dumping of large strings
+username: mstipetic
+usertype: User
+state: open
+-------------------------------------------
+Issue title: empty string key is considered as complex mapping key 
+username: guoqiao
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Add pyproject.toml file to specify the requirements to build PyYaml
+username: artificial-aidan
+usertype: User
+state: open
+-------------------------------------------
+Issue title: PyYAML artifacts uploaded to pypi.org have missing Python-Requires metadata
+username: ngaya-ll
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Support overriding anchors
+username: perlpunk
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Allow dots and slashes in anchor names
+username: Infernio
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Importing data with null bytes
+username: bmsumin
+usertype: User
+state: open
+-------------------------------------------
+Issue title:  Fatal crash due to uncaught exception in datetime for 0000-00-00 
+username: reyjrar
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Pyyaml cannot load Decimal-numbers
+username: ShinyExample
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Issue with explicit_end set to False having no impact on small dump
+username: daniel-o-jones
+usertype: User
+state: open
+-------------------------------------------
+Issue title: The supported Python versions are not honored by pip
+username: andy-maier
+usertype: User
+state: open
+-------------------------------------------
+Issue title: [WIP] test simple hack to use setuptools
+username: nitzmahone
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Dots in anchor names cause parsing errors
+username: Infernio
+usertype: User
+state: open
+-------------------------------------------
+Issue title: add decimal representer
+username: syre
+usertype: User
+state: open
+-------------------------------------------
+Issue title: pyyaml does not dump with proper yaml format when a class uses @property to manage attribute access
+username: theragingwookie
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Customizing the threshold of check_simple_key().
+username: rainwoodman
+usertype: User
+state: open
+-------------------------------------------
+Issue title: v5.2 fails to load serialized exception with `load(handle, Loader=yaml.FullLoader`
+username: sphuber
+usertype: User
+state: open
+-------------------------------------------
+Issue title: pip install failure, macOS 10.14.6, python 3.7.5, Xcode 11.3 (11C29)
+username: basictheprogram
+usertype: User
+state: open
+-------------------------------------------
+Issue title: How to write a constructor with optional args?
+username: sjalloq
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Trivial crashes found via fuzzing
+username: Google-Autofuzz
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Change documentation default from python2 to python3 given python2 is end of life in a month
+username: jordanst3wart
+usertype: User
+state: open
+-------------------------------------------
+Issue title: ConstructorError regression in version 5.2
+username: tgsmith61591
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Support auto-discovery of representers
+username: mkindahl
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Adding constructor with tag and attempt to work with sub items cause to fail 
+username: doguz2509
+usertype: User
+state: open
+-------------------------------------------
+Issue title: PyYaml can't parse mappings with lists as keys
+username: bmccutchon
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Parsing error while defining same alias
+username: whg517
+usertype: User
+state: open
+-------------------------------------------
+Issue title: PyYaml fails to load YAML from string when one of the object is nested class
+username: pbk0
+usertype: User
+state: open
+-------------------------------------------
+Issue title: libstdc++ removed from XCode 10, compile fails
+username: hnraza
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Copied docs from .org repo
+username: erez-o
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Last word of a line exceeds the width limit
+username: remi-dupre
+usertype: User
+state: open
+-------------------------------------------
+Issue title: safe_dump should be able to handle arbitrary Mappings
+username: bmccutchon
+usertype: User
+state: open
+-------------------------------------------
+Issue title: safe_dump should dump frozenset as !!set
+username: bmccutchon
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Cannot safe_dump subclasses of known types
+username: 0x326
+usertype: User
+state: open
+-------------------------------------------
+Issue title: "\a" in source YAML file incorrectly converted to "\x07" when dumped
+username: xenoscr
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Fail to parse document containing trailing tab in line
+username: phil9909
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Documentation wrongly asserts that it can write to a binary file
+username: facundobatista
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Create NON_PRINTABLE regex at runtime
+username: therve
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Fail to serialize an object whose __reduce__ returns a string
+username: jtbraun
+usertype: User
+state: open
+-------------------------------------------
+Issue title: YAML 1.1 multi-document directives aren't supported
+username: markshep
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Post recent pyyaml to test.pypi.org
+username: dzimine
+usertype: User
+state: open
+-------------------------------------------
+Issue title: use _yaml.pyd parse yaml with error
+username: poursoul
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Why does PyYAML 5.1 raise YAMLLoadWarning when the default loader has been made safer already?
+username: lonelearner
+usertype: User
+state: open
+-------------------------------------------
+Issue title: dump raises "Unicode argument expected, got 'str'"
+username: fchauvel
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Incomplete API in 5.1 (?)
+username: Peque
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Specify YAMLError
+username: bieron
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Incompatible changes in version 5.1
+username: perlpunk
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Remove dead code and clean up some unnecessary C-API usages
+username: scoder
+usertype: User
+state: open
+-------------------------------------------
+Issue title: safe_dump for decimals?
+username: benwhalley
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Create pull request to update local repository of pyyaml
+username: peterkmurphy
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Feature request: User specifiable dictionaries
+username: mortsynluap
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Adds y and n to YAML Boolean Values
+username: dennisconrad
+usertype: User
+state: open
+-------------------------------------------
+Issue title: y|Y|n|N not Recognised as Booleans
+username: dennisconrad
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Check if regex for timestamp is correct match
+username: Akasurde
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Feature request: Throwing error on load if document is potentially incomplete
+username: xkortex
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Multiline strings are ugly after dumping
+username: neumond
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Unable to dump blocks without having quotes on keys
+username: ssbarnea
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Incorrect indentation with lists
+username: bcoca
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Add \u001b to the set of permitted unicode chars
+username: stonier
+usertype: User
+state: open
+-------------------------------------------
+Issue title: How to generate a SerializerError?
+username: 4383
+usertype: User
+state: open
+-------------------------------------------
+Issue title: No easy way to get an isolated, customized SafeLoader
+username: akdor1154
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Allow load/save from string path with context managed stream objects.
+username: bubthegreat
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Can't save and load CMRESHandler logging configuration with PyYAML
+username: amyjess
+usertype: User
+state: open
+-------------------------------------------
+Issue title: For custom tags, is the object's __init__() ever actually called?
+username: gdw2
+usertype: User
+state: open
+-------------------------------------------
+Issue title: import pyyaml
+username: milos-korenciak
+usertype: User
+state: open
+-------------------------------------------
+Issue title: test_emitter.test_emitter_styles failing when using C extensions on python2 only
+username: dthkao
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Feature request for envvar to disable using libyaml
+username: ilovezfs
+usertype: User
+state: open
+-------------------------------------------
+Issue title: appveyor.yml: build wheels and windows dists on appveyor
+username: hanetzer
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Feature/unify readme
+username: rachmadaniHaryono
+usertype: User
+state: open
+-------------------------------------------
+Issue title: treewide: python2/python3 unification work
+username: hanetzer
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Numbers in scientific notation without dot are parsed as string
+username: coldfix
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Unify README with PYPI
+username: webknjaz
+usertype: User
+state: open
+-------------------------------------------
+Issue title: pip install pyyaml from virtual environment fails with TypeError '>='
+username: NikTheGeek1
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Windows build error
+username: sbrugman
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Duplicate keys are not handled properly
+username: horenmar
+usertype: User
+state: open
+-------------------------------------------
+Issue title: add option to force scalar style when emitting
+username: oulenz
+usertype: User
+state: open
+-------------------------------------------
+Issue title: allow emitting end of line spaces in literal block scalars
+username: oulenz
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Ensure we do not end up with CRLF line endings on tests
+username: mingwandroid
+usertype: User
+state: open
+-------------------------------------------
+Issue title: WIP: Support loading sequence mapping keys as tuples
+username: perlpunk
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Longer/configurable simple key length
+username: groutr
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Regression - RepresenterError on dict subclass
+username: jaraco
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Documentation is moved in an endless loop
+username: grinapo
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Nested classes can't be deserialized
+username: MoritzMaxeiner
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Allow question marks inside of plain scalars in flow collections
+username: perlpunk
+usertype: User
+state: open
+-------------------------------------------
+Issue title: How can I add blank lines between top-level objects?
+username: MartinDelVecchio
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Advanced Interpolation help
+username: jaitaiwan
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Avoid expensive regular expressions for NON_PRINTABLE check
+username: roehling
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Building on Mac - _yaml.c not found
+username: heseba
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Why does pyyaml disallow trailing spaces in block scalars?
+username: oulenz
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Inconsistent behavior with constructors
+username: tchx84
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Added comment handling in Emitter (py3 only)
+username: pflarr
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Cannot install for current CPython HEAD / devel for macOS
+username: Kentzo
+usertype: User
+state: open
+-------------------------------------------
+Issue title: YAML 1.2 support
+username: kislyuk
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Pretty print from command line
+username: filippog
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Disable Aliases/Anchors
+username: engnadeau
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Provide access to LibYAML version
+username: cjerdonek
+usertype: User
+state: open
+-------------------------------------------
+Issue title: duplicate anchors throw ComposerError
+username: NikkyAI
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Deep construction doesn't take into account merged or referenced anchors
+username: m-schubert
+usertype: User
+state: open
+-------------------------------------------
+Issue title: quoting strings composed of digits
+username: drtconway
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Mismatch between c-bindings and python bindings for dumper
+username: yagnik
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Avoiding overflow error on windows embedded Python
+username: andreydani
+usertype: User
+state: open
+-------------------------------------------
+Issue title: platform-independent wheels
+username: amras0000
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Unicode anchor and alias names are not supported.
+username: peterkmurphy
+usertype: User
+state: open
+-------------------------------------------
+Issue title: yaml.load() does not assert input type
+username: kupsef
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Load comments
+username: phihag
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Plain equal sign (=) as node content results in an error
+username: rdn32
+usertype: User
+state: open
+-------------------------------------------
+Issue title: !!omap loaded as list of tuples not as an OrderedDict
+username: eiva
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Fixed implicit resolver leak #67
+username: xqliang
+usertype: User
+state: open
+-------------------------------------------
+Issue title: host universal --without-libyaml wheels
+username: graingert
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Version 3.12: 'module' object has no attribute 'cyaml' on Windows
+username: guanidene
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Port documentation to be included in this repo
+username: basicdays
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Core Infrastructure Initiative (CII) Best Practices
+username: ypid
+usertype: User
+state: open
+-------------------------------------------
+Issue title: provide option (preferably this would be the default) to ignore yes/no/Yes/No/on/off/etc. as booleans
+username: jason-s
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Rebase off ruamel? - many new valuable features
+username: mikedlr
+usertype: User
+state: open
+-------------------------------------------
+Issue title: pyyaml should detect duplicate keys and report an error.
+username: partofthething
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Install failed with Cython 0.25
+username: messense
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Fix a bug attempting to write str to a unicode-only stream
+username: wuhaochen
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Support for Abstract Base Classes
+username: Sklavit
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Extract a method to represent keys in mappings, so that a subclass ca…
+username: davidfraser
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Migrate canonical repo from BitBucket to GitHub
+username: ingydotnet
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Custom constructor should not clobber wrapped output
+username: ptomato
+usertype: User
+state: open
+-------------------------------------------
+Issue title: sub-dictionary unavailable in constructor
+username: potash
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Add & Improve Documentation
+username: sigmavirus24
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Clean Up setup.py where possible
+username: sigmavirus24
+usertype: User
+state: open
+-------------------------------------------
+Issue title: Keys being renamed by safe_load 
+username: CraigBurden
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: pip install fail
+username: tooptoop4
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Add free-threading support
+username: FFY00
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: how to ignore duplicate anchor error
+username: zszen
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Seemingly random quoting of keys
+username: DavidMertz
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: ConstructorError: could not determine a constructor for the tag '!reference'
+username: AlexanderSerov
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Maintain dictionary order when generating YAML
+username: JC3
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Refresh CHANGES from release/6.0, bump to 7.0.0.dev0
+username: nitzmahone
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: fix `setup.py test`, issue deprecation warning update supported Python metadata
+username: nitzmahone
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Release 6.0.2
+username: nitzmahone
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: 6.0.2 final release checklist for Python 3.13 support
+username: nitzmahone
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Failed to compile on macos sonoma
+username: nosleduc
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Lightweight py-poyo integration
+username: jacobfriedman
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: fix(resolver): reference strings of int as object
+username: ericabrauer
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Keep support for python 3.6 and 3.7
+username: woutdenolf
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: `setup.py test` is broken in 6.0.2rc1
+username: mgorny
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: 6.0.2rc1
+username: nitzmahone
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Conditional support for Cython3.x, CI updates
+username: nitzmahone
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: "on: true" gets parsed as "True: True" when using safe_load
+username: y2k0999
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: li
+username: giangabgga
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Add monthly downloads badge to README
+username: ayushjain01
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Strange issue with invalid YAML
+username: inoa-jboliveira
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Question about a "curly quotes" safe check 
+username: giuliohome
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Tabs support
+username: kripper
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Python 3.13 support
+username: nitzmahone
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: compatibility 
+username: Roshanshyenatech
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Bools are not handled in 6.0.1 (YAML 1.2)
+username: dylanh724
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Inconsistent/Wrong Type casting when using yaml.dump/safe_dump
+username: stuartornum
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: End of document delimiter (`...`)
+username: philpagel
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Can't seem to read emoji
+username: vaylvn
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: pull request from Rel1 to master
+username: kiran-devops1313
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Provide wheel for `musllinux` `arm64`
+username: harryzcy
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Unable to install due to dependency on setuptools - help please?
+username: agaldran
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: RFE: port to `cython` 3.x
+username: kloczek
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Unable to install in Python 3.12 environment
+username: RNarayan73
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Install PyYAML 6.0 from source results into failure: ERROR: No matching distribution found for wheel
+username: abhishek-das-gupta
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Result of safe_load_all is not writable with safe_dump_all
+username: rwcgi
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: PyYaml missing AArch64 wheel for Python 3.12 only
+username: PythonCoderAS
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: How to install via pip using `--without-libyaml` when `--install-option` is deprecated?
+username: phyber
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: yaml-6.0.1 ==> cython-3.0.7
+username: predators46
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: bug? some string constants are getting printed as ints
+username: brigadier
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: failed installing dependencies on WSL2
+username: Thribs
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Declare Python 3.12 support
+username: Jamim
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Failure to import
+username: kid-gorgeous
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: restore windows x86_64 3.8 Python job
+username: nitzmahone
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: ci: Fix syntax error in workflow file
+username: perlpunk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Clarify that load_all methods return a generator, not a sequence
+username: mpitt
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: libyaml-based builds segfault on Python 3.13.0a1
+username: nitzmahone
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Cant get it to work on python 3.12
+username: chalecado
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Nodes tech lift #757
+username: colltoaction
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Tech lift on the nodes lib
+username: colltoaction
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Python 3.12 failed to install pyYaML=6.0.0 
+username: nibz78
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Create management
+username: BriannaMason6770927
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Backport #702 to pyyaml 5.4
+username: anxjok
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: cython causes pipenv to fail dependency resolution due to errors in PyYAML setup.py
+username: dashdanw
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Compatibility with Cython 3.0
+username: refack
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Disable AppVeyor integration
+username: nitzmahone
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Yaml with a key called "on" parsed as True
+username: Puneeth-n
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: " No module named '_ctypes'" when installing PyYAML 6.0.1 into Python 3.11.4
+username: MartinBonner
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: '0008' and '0009' strings are not single-quoted when dumping.
+username: jeshow
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: chore(python): add Python 3.12 support
+username: stegayet
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Version 6.0.1 produces Segmentation Fault on Python 3.7 and Alpine 3.14
+username: SerhiyRomanov
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: arm64 build broken on 5.4
+username: orcutt989
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: RFE: please start making github releases
+username: kloczek
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Pin Cython build constraint to < 3.0
+username: freyes
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Fix builds with Cython 3
+username: ahesford
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: pip3 install pyyaml in dockerfile returns error
+username: TasnimFabiha
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Make setup.py work with Cython 3 and Cython 0.29
+username: SoftwareApe
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Request for a v5.4.1.post1 release to set `Cython<3` 
+username: sirosen
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: RFE: please start making github releases
+username: kloczek
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Backport #702 for `5.4`: Pin Cython build constraint to < 3.0
+username: idanmiara
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: ci: Upgrade GitHub Actions on release/6.1 branch
+username: cclauss
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Error installing Pyyaml==5.4, Cython_sources
+username: MeliJuanmi
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Build error with setuptools 0.68.0
+username: phillipuniverse
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Enum member serialization different in Python 3.11
+username: ThiefMaster
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Style `|` in combination with `\n` in the beginning renders invalid yaml
+username: aquamatthias
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Building --without-libyaml doesn't work
+username: aplaice
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Query about new version release
+username: JugeshHM
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Missing packages for amd64 macOS
+username: mmathys
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: setup.py failed YAML extension check: no such file or directory: 'yaml/_yaml.c'
+username: mmathys
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Line with extra spaces causes style changes. Bug or Feature?
+username: d3cryptofc
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Unable to import yaml after install
+username: corneels
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: First time to run. Not working.
+username: MrUnknown789556
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Compatibility of PyYAML with Python 3.11.2
+username: kmaheshwari-splunk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: drop of "requires" and "properties" attributes during load
+username: freegroup
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Odd behaviour of `add_constructor` when applied within a loop
+username: ckaipf
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Block Literal processing not respecting scope
+username: zaphod80013
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Pin Cython build constraint to < 3.0
+username: nitzmahone
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: pyyaml should disable duplicate keys
+username: zsfbct
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Inclusion of LaTex math symbol.
+username: RubelMozumder
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Unable to parse latex symbol
+username: RubelMozumder
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: yaml.safeload() is not reading values correctly.
+username: KiranPaladugu
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Linking against libyaml fails with python 3.11
+username: bneumeier
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Why safe_load_all and load_all return empty generator?
+username: emadimehrdad
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Error importing with PyPy 3.8.15/3.9.15
+username: davidbrochart
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: YAML linter is getting failed with the yaml.dump
+username: krishna3008
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Optional keys
+username: sebastianzander
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: yaml.constructor.ConstructorError: could not determine a constructor for the tag 'tag:yaml.org,2002:value'
+username: aleksandr-vin
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: issues reading lines containing specific regex (follow-up to #680)
+username: The-Judge
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: sigopt 8.6.2 requires PyYAML<6.0.0,>=5.4.1, but you have pyyaml 6.0 which is incompatible.
+username: gcflymoto
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: issues reading lines containing specific regex
+username: The-Judge
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Compatibility with Github actions
+username: Shalom-Nankam
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: ci: Upgrade GitHub Actions and Python 3.11 production
+username: cclauss
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: How to validate "{{- toYaml }}"  inside YAML?
+username: melezhik
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Failure to Construct Python Tuples from PyYAML encoding
+username: RHammond2
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: 420 fix
+username: christianfrstorm
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Add python 3.11 support (#663)
+username: christianfrstorm
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Use `ChainMap` to improve representer/constructor inheritance
+username: rhansen
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Support musllinux wheels build
+username: ben9923
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Variable Substitution in YAML not performed before loading into Python
+username: Montana
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: pathlib object cannot be loaded
+username: vascotenner
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Add python 3.11 support
+username: mayeut
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Installing the from source should not fail to find yaml.h on macos
+username: ssbarnea
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Numbers separated by colon parse unpredictably
+username: davetapley
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Upgrade GitHub Actions
+username: cclauss
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: distracting error message on mac m1 - "Can't use yaml CLoader.."
+username: srulik-ben-david-hs
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: CSafeLoader fails cannot handle bad quoting
+username: RoboMagus
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Deep construction for maps
+username: ivannp
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: dump does not preserve lines order in original file
+username: melezhik
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: security disclosure docs
+username: nitzmahone
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Security concern
+username: JamieSlome
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Add period character to custom list of allowed characters
+username: andrewshawcare
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Fail to parse Yaml text if there is a value starts with "%"
+username: xinzhang-lotusflare
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Output choking on ordereddict
+username: yeago
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: 6.0: pytest is failing
+username: kloczek
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Not working in CircleCI
+username: ank1traj
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Loading in a yaml changes keys to alphabetical order (mapping issue)
+username: Castisho
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Module fails to properly parse .yml file
+username: nivedvenugopalan
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: libyaml extension build fails on Python 3.11.0a7
+username: wimglenn
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: I saw in another post that it should be written like this, and it worked for me.
+username: marcarani
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Fix setuptools version for v5.4.1
+username: wylswz
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Is it intended that json is acceptable on load?
+username: magarage
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: OrderdDict returned to python
+username: c-w-m
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Fails with Python invoke and Python 3.10: AttributeError: module 'collections' has no attribute 'Hashable'
+username: edvardm
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: PyYAML can't determine constructor for subclass of YAMLObject when CLoader is used
+username: FynnFreyer
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: pyyaml crashes on unquoted equal sign
+username: avakhrenev
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Serialize pathlib.Path objects as string
+username: darkdragon-001
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: yaml/_yaml.c is missing even from pypi source tarballs, can't build C extension
+username: karolyi
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: yaml.load not Class aware
+username: gsal
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: PyYAML interprets yes, no, on, off as Boolean
+username: sergio-nsk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: yaml.dump writes entire object, not just what's included in __repr__()
+username: gsal
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Checksum changed for tag 5.1.2
+username: SGudbrandsson
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Inconsistent duplicate keys merging
+username: d-01
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: WIP: Attempt to get pyyaml to build with cython 3.0
+username: tacaswell
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Request: musllinux wheel
+username: tgross35
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: yaml.safe_load(b'._______________________________'): "ValueError: could not convert string to float: '.'"
+username: wellsonah2019
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: WIP keep PyYAML build working on Cython3.0.0a10+
+username: nitzmahone
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Update representer.py
+username: ghost
+usertype: User
+state: closed
+-------------------------------------------
+Issue title:  cannot import name 'CLoader' from 'yaml'
+username: rlgn
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Project definition invalid with pipenv on Python 3.8.9
+username: fkrauthan
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: how can load a yaml file within quotation
+username: yangllty
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Fixing the float resolver
+username: arvkonstantin
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Move tests to pytest
+username: nitzmahone
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Fix typos
+username: kianmeng
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: #️⃣ cannot be loaded
+username: JamzumSum
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Why doesn't yaml allow safe_dump for decimals?
+username: ghost
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Inconsistent quoting for strings representing zero-padded numbers ending with 8 or 9. 
+username: wflynny
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: PyYaml not working on Python 3.10
+username: Wilhelmsson177
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Test Python 3.10 final
+username: hugovk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: changes for release 6.0b1
+username: nitzmahone
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Omnibus CI/artifact build update
+username: nitzmahone
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Please consider moving from github.
+username: microsoftisevil
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: [WIP test] Multi-arch MacOS builds
+username: nitzmahone
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Move Windows CI/build to GHA
+username: nitzmahone
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Various setup fixes
+username: nitzmahone
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: yaml.load(s, Loader=...) requires Loader= argument always
+username: ingydotnet
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Use with statements to eliminate ResourceWarnings
+username: Thom1729
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Don't error on duplicate anchor names
+username: Thom1729
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: XXX - temp disable most CI
+username: nitzmahone
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Fix warning errors of the libyaml binding
+username: pantoniou
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Fix issue with representing Enum types
+username: Thom1729
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Convert README to markdown
+username: Thom1729
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Fix spelling of “hexadecimal”
+username: Thom1729
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Arm64 build not found for version 5.4.1
+username: GO3LIN
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: fix: typos
+username: kkirsche
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Drop 2.7 support
+username: Thom1729
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Remove py35 from tox.ini.
+username: Thom1729
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: PyYAML cannot read own output
+username: cheryllium
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: use text gitattributes and context managers for tests
+username: mattip
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: `yaml.dump`: "AttributeError: 'functools.partial' object has no attribute '__name__'"
+username: allefeld
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: yaml a pandas.DataFrame
+username: gunthergl
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Set the Cython language_level to 2
+username: fungi
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Load line in YAML file containing custom Tag?
+username: holec
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Replace deprecated license_file wheel metadata
+username: fungi
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Brackets and curly braces in !tags value cause ParseError when used inside mapping
+username: MrGreenTea
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Reformat readme for markdown and reword it
+username: metov
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Pip wheel for pyyaml contains pyc files
+username: det
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Strings with a number ending in eight or nine are dumped as integers
+username: albertca
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Support of ordered dictionary
+username: DonaldWL
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: 4 CVEs vulnerabilities detected when using an automatic vulnerability-detection tool
+username: Schneider-Electric-Carros
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: 5.4.1.1: pytest based test suite is failing
+username: kloczek
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Loading YAML, but include the #before items beginning with it.
+username: Runisco
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Documentation Error
+username: legioz
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: ftiictn
+username: dmazin
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Error
+username: legioz
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Installing PyYAML in docker container
+username: MLDrago
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: WIP Support for the YAML 1.2 Core and JSON schemas
+username: perlpunk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Subclasses of enum.Enum can't be dumped
+username: VOsakosa
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Add to changelog that v5.4 drops support for py3.5
+username: amykyta3
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: explode multiarch matrix for ML2014/aarch64/s390x
+username: nitzmahone
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: pyyaml package upgrade issue
+username: Dexter706
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Add cibuildwheel support for aarch64.
+username: odidev
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: UnsafeLoader does not use UnsafeConstructor
+username: dthkao
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Remove distutils as depricated and causes uninstall issues
+username: L1ghtn1ng
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Fix yaml11 float resolver for '.'
+username: perlpunk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Tests installed with lib for sanity check
+username: dHannasch
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: assert yaml.__with_libyaml__
+username: dHannasch
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: test_constructor_types is never actually called?
+username: dHannasch
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Drop Python 2.7 support.
+username: dHannasch
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: custom representer to create `!!python` tag fails
+username: allefeld
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Add a test for YAML 1.1 types
+username: perlpunk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: yaml.constructor.ConstructorError with loading argparse.Namespace
+username: Borda
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: 5.3.1 -> 5.4 Broke Reproducible Builds
+username: paisleyrob
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Fix stub compat with older pyyaml versions that may unwittingly load it
+username: nitzmahone
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: 5.4 causes issue in connexion
+username: wang31
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: 【v5.4】partially initialized module 'yaml' has no attribute '__with_libyaml__'
+username: sdn0303
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Move Windows wheel builds to GHA
+username: nitzmahone
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Drop Python 2.7 support
+username: nitzmahone
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Run CI on PR base branch changes
+username: nitzmahone
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Bug in pyyaml found by fuzzing
+username: ingydotnet
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Potential fix for #420
+username: ingydotnet
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Added power support for the travis.yml file with ppc64le. 
+username: sreekanth370
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: The loader transforms 'on' key to True 
+username: adelbke
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Merging Lists
+username: RishabhMalviya
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Test on Python 3.9, add to classifiers
+username: hauntsaninja
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: make README a markdown document
+username: champignoom
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: yaml.load returns filename  instead of content
+username: Divkix
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Dump adds unnecessary line break
+username: eye-dee
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Python 3.10 failing to build pyyaml
+username: davfsa
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Python 3.9 metadata and Windows wheel build
+username: nitzmahone
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Add python 3.9 builds (#446)
+username: daybarr
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Add python 3.9 builds (#446)
+username: daybarr
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: CVE-2020-14343 is there any plan to resolve this vulnerability picked up in Blackduck scans
+username: jackpa99
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Plain list not read correctly
+username: tdegeus
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Make safe loading the default
+username: itamarst
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: change default loader to SafeLoader
+username: hpasapp
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: constructor cannot be found for represented object
+username: AMNeumann
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Adding Support for AIOFiles
+username: SZanko
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Upload wheels for Python 3.9
+username: astrojuanlu
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: PyYAML not using libyaml bindings on Raspberry Pi OS (Debian armv7)
+username: geerlingguy
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Can't install PyYAML with pip if setuptools isn't installed
+username: IRDonch
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Yaml loads booleans as strings
+username: ckamm12
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Avoid repeatedly appending to yaml_implicit_resolvers
+username: psphicas
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Update the libyaml tag in .travis.yml and .appveyor.yml
+username: dota17
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: safe_load with implicit_resolver slows down 
+username: AlexeyTrekin
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Use LibYAML bindings by default if installed
+username: psphicas
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: yaml.dump is not creating yaml file row after row
+username: berkguzel
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: update CI to include Python 3.9rc1
+username: nitzmahone
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Revert "Improve RepresenterError creation"
+username: rabi
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: index-key ? in libs/yaml/scanner.py
+username: FrankC01
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Provide PYYAML_DEFAULT_LOADER env var
+username: GProst
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Huntr 
+username: Jonny5stillalive
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Inconsistent dump of strings representing numbers
+username: blaiseli
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: [cython] AttributeError: type object '_yaml.Mark' has no attribute '__reduce_cython__'
+username: seanyen
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: List item type error in dump
+username: ElonH
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Feature/YAML application properties files
+username: marcosstefani
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: .load() and FullLoader still vulnerable to fairly trivial RCE
+username: arxenix
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Add ppc64le jobs to Travis CI
+username: daxtens
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Failing to roundtrip a string that looks like a big float
+username: omry
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: allow sort func to be passed for sort_keys
+username: sielicki
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Ignore python_requires when installing with distutils
+username: bsolomon1124
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: stop printing `!!python/object:` first line when dumping custom YAMLObject
+username: rivison
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Build modernization (GHA, wheels, setuptools)
+username: bsolomon1124
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: newlines inserted after loading yaml
+username: ghost
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: yaml anchors are ignored
+username: ghost
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Test with libyaml 0.2.4
+username: perlpunk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Having problems with tag !!python/name (plus others)
+username: thmsklngr
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: yaml.reader.ReaderError: unacceptable character
+username: ssbarnea
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Test failures with libyaml 0.2.3
+username: jeckersb
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: FullLoader returns unexpected number for value 1:10
+username: lochbrunner
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: dump() converts strings with exponential number to numbers
+username: MadVikingGod
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: constructor.timezone: __copy_ & __deepcopy__
+username: ovv
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Confused by "PyYAML yaml.load(input) Deprecation" doc
+username: anentropic
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: help me !!!!!   I want to show you how do we do that
+username: feixia5712
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: copy.deepcopy() with datetime objects fails with "TypeError: __init__() takes exactly 2 arguments (1 given)"
+username: ralt
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Prevents arbitrary code execution during python/object/new constructor
+username: ret2libc
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: sligth difference on github package and pyyaml.org package: missing _yaml.c file
+username: blue-devil
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Error during Pip install on python 3.8 virtual environment on ubuntu 18.04.3
+username: spbrogan
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: 5.3: compile time warnings
+username: kloczek
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: yaml.dump appends a line at the end of the file
+username: NargiT
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Fix compatibility with Jython
+username: anishathalye
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Skip loading part of the YAML file
+username: mitar
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: `on` is loaded as True instead of a string
+username: StrayDragon
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: load list of string with ':' in it, get different result with BaseLoader and SafeLoader
+username: beegerous
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: PyYAML 5.3 not compatible with Jython
+username: pekkaklarck
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: yaml.dump does not work with defaultdict
+username: schrockn
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: ARM64: Add ARM64 jobs in Travis-CI
+username: ossdev07
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: number loaded error when number startswith 0
+username: 394659383
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Add tests for timezone
+username: perlpunk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Enable certain unicode tests when maxunicode not > 0xffff
+username: perlpunk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Use full_load in yaml-highlight example
+username: perlpunk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Allow calling add_multi_constructor with None
+username: perlpunk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Fix appveyor.yml to use libyaml tag not branch
+username: perlpunk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: String Formating with Anchor References
+username: q4Zar
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Windows build tweaks
+username: nitzmahone
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Fix reader for Unicode code points over 0xFFFF
+username: anishathalye
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Support for certain unicode literals depends on sys.maxunicode
+username: anishathalye
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: ERROR: Cannot uninstall 'PyYAML'
+username: waffletower
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: encoding bug or missue?
+username: jflorian
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Move constructor for object/apply to UnsafeConstructor
+username: perlpunk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Non-windows wheels 
+username: Suor
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Travis CI: Test on Python 3.8 production release
+username: cclauss
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Could I specify a prefix and load to a class instance?
+username: fy-kenny
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Use size_t for marks to handle big files
+username: abergeron
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Using yaml.load(stream, Loader=yaml.SafeLoader) still prints deprecation warning
+username: licht1stein
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Unable to transform OrderedDict data into yaml format
+username: kcorlidy
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Is there any bug bounty program for finding security bugs in pyyaml module
+username: j0lt-github
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Cut a 5.2 release?
+username: dthkao
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Handle invisible spaces
+username: ghost
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Unexpected dump result
+username: whiteskylife
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: does the passed stream need to be closed
+username: ghost
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Fix for Python 3.10
+username: hugovk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Change README format to Markdown
+username: timhoffm
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: 5.1.2 released on pypi without first having a tag on github
+username: ssbarnea
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Syntax errors when running compileall - 5.1.1
+username: melodyofdreams
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Build on Python 3.8 fails
+username: MeggyCal
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: FullLoader is not much safer than UnsafeLoader
+username: jamespic
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Test failures with 5.1 and libyaml 0.2.2
+username: FRidh
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Fail to install with pip and python 2.7.10 on OSx 10.14.5
+username: sedurCode
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Valid .yaml generates error "yaml.scanner.ScannerError: mapping values are not allowed here"
+username: stefanodallapalma
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Setting default multiconstructor results in an TypeError
+username: Losik
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Fix up small typo replace intendation with indentation.
+username: timgates42
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Using libyaml from pyyaml on Windows
+username: albertvaka
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: increase size of index, line, and column fields
+username: dwightguth
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Fix up small typo
+username: timgates42
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Print to file exclamation mark
+username: TebanSierra
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Starting value with double quotes at the begining
+username: vrst37
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Change default loader for add_implicit_resolver, add_path_resolver
+username: perlpunk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Building a statically linked libyaml into PyYAML wheel
+username: shakefu
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Extra single quotation marks with datetime strings 
+username: JoonaFinland
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: AssertionError: 'expected an exception'
+username: kyrios123
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: 5.1 regression causing cannot represent an object
+username: ssbarnea
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Extremely basic example does not load
+username: felix-schneider
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Implicit Resolvers do not appear to work with PyYAML 5.1
+username: cfeenstra67
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: ModuleNotFoundError: No module named 'yaml'
+username: marcosschroh
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Use `is` instead of equality for comparing with `None`
+username: GeyseR
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: WindowsErr
+username: AdamLouly
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Change default loader for yaml.add_constructor
+username: perlpunk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Yaml-5.1 fails with Numpy objects
+username: saimn
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Add use of safe_load() function in README
+username: sblondon
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: dump a object with __slots__ then load it will throw TypeError
+username: Hanaasagi
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Unable to dump with the same format loaded
+username: Peque
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Update setup.py packaging before dropping Python 3.4 support
+username: nitzmahone
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Update CHANGES for 5.1
+username: perlpunk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: A more flexible fix for custom tag constructors
+username: ingydotnet
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Releases past 3.13 are not listed on pyyaml.org
+username: akx
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Fix logic for quoting special characters
+username: perlpunk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Version 5.1 dumps strings differently on different platforms
+username: undera
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Change default Loader for add_constructor to FullLoader
+username: perlpunk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Change default loader for YAMLObject classes to FullLoader
+username: perlpunk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Implicit conversion of 'M:S' to seconds
+username: gar1t
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: convenience methods in __init__.py should modify FullLoader instead of Loader
+username: dthkao
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: fix typos and stylistic nit
+username: dthkao
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Travis improvements
+username: expobrain
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Use Markdown instead of plain text
+username: expobrain
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Line break without quote, literal and fold.
+username: junjihashimoto
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: ConstructorError - could not determine a constructor for custom tag (5.1)
+username: kgutwin
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Windows Appveyor build
+username: nitzmahone
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Unable to load map with key containing colon
+username: Just4test
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Skip certain unicode tests when maxunicode not > 0xffff
+username: perlpunk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: remove some unused imports
+username: fchapoton
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Plans to cut stable release?
+username: kdelee
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: fix yaml construct a slot object
+username: Hanaasagi
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Deprecate yaml.load and add FullLoader and UnsafeLoader classes
+username: ingydotnet
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Make default_flow_style=False
+username: perlpunk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Allow to turn off sorting keys in Dumper (2)
+username: perlpunk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Parse datetime timezone
+username: luiscoms
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: parser regression: yaml.reader.ReaderError: unacceptable character #x1f64b: special characters are not allowed
+username: CarlFK
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Anchor injection does not work in .load
+username: psarka
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Dumping multiline string gives incorrect result
+username: rjekker
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: WIP: Unify to a single code base compatible with both Python 2 & 3
+username: jdufresne
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Document that PyYAML is implemented with Cython
+username: jdufresne
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Security fixe reported by github
+username: paulocoutinhox
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: executed by two times
+username: Freakwill
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Custom tags fail in block scalars
+username: christianbioinf
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Python 3: file() --> open() in yaml-highlight example
+username: cclauss
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Billion laughs attack
+username: jonasw234
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Explicit tags in long form are not supported
+username: cdobbyn
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: [slots] it may be a bug in file constructor.py
+username: Freakwill
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Release_3.13: Dict leading zeros results in 0-7, then "08", "09" ...
+username: pacman2011
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Should pyyaml really try to match hash key aggressively in list items ?
+username: jpic
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Feature Request: Support Nuitka
+username: Jeeppler
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: PyYAML and wheel
+username: 4383
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Remove dead, commented out code
+username: jdufresne
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Use setuptools in setup.py for setup() function
+username: jdufresne
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Use https:// links in docs
+username: jdufresne
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: [pyyaml 3.13] TypeError while dumping lambda in Python 3
+username: NiklasRosenstein
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Fix annoying DeprecationWarning in constructor.py
+username: DiegoPomares
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Travis CI: Upgrade from Python 3.7 pre-release to production
+username: cclauss
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Link to YAML cookbook is broken
+username: Muffo
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Version 3.13 fails test suite after libyaml update to 0.2.1
+username: peti
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Please provide manylinux wheels
+username: hroncok
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Making python 3.7 + compatible
+username: Keyrat06
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: can you rename 4.1 tag?
+username: jrmarino
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Can't Pip Upgrade.
+username: drcrook1
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Add Python 3.7 to the testing
+username: cclauss
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: CVE-2017-18342 status
+username: Jwomers
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: pyyaml can't be installed via pip
+username: estiens
+usertype: User
+state: closed
+-------------------------------------------
+Issue title:  HTTP error 404 while getting https://www.piwheels.org/simple/pyyaml/PyYAML-4.1-cp35-cp35m-linux_armv7l.whl
+username: peterpanstechland
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Can't install pyyaml on RaspberryPi3 with python3
+username: JosefProbst
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Collections Deprecation Warning
+username: jeoffridavis
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: 4.1 Tagged Release Missing on PyPI
+username: vertexmc
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Enable testing of py37 release
+username: ssbarnea
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Change dump(..., default_flow_style=...) default to False
+username: ingydotnet
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: WIP: Another safe_load API attempt
+username: perlpunk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Force cython when building sdist
+username: perlpunk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Build libyaml on travis
+username: perlpunk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Reverting https://github.com/yaml/pyyaml/pull/74
+username: ingydotnet
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: PyYAML 4.2 Release Plan
+username: ingydotnet
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: removal of 4.1 broke downstream gates
+username: prometheanfire
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: 4.1 release unpublished from PyPI?
+username: alexbecker
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Rework the safety related API code
+username: ingydotnet
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Force cython when building sdist (see 196 instead)
+username: perlpunk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: PyYAML 4.1 changes "safe" in more ways than immediately obvious
+username: cdent
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Fails spec-07-09, spec-07-10, spec-07-13, spec-08-08 when built with LibYAML 0.2.1
+username: andersk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: !!python/object/apply: does not work anymore since v4
+username: Colin-b
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: ext/_yaml.c is missing in 4.1 tarball
+username: dfroger
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Import Hashable from collections.abc
+username: The-Compiler
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: 4.1 release breaks old config files
+username: mjpost
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: extension _yaml is not built
+username: dfroger
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Cannot load python/unicode strings in 4.1
+username: johnywith1n
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Yaml-4.1 failed to serialize or deserialize numpy objects.
+username: lyuwen
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Add python_requires to help pip
+username: hugovk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Updated link to pypi in release announcement
+username: alex
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Fix resolving scientific notation
+username: coldfix
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Refactor travis ci config and make it run tests under macOS as well
+username: webknjaz
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Not able to parse valid AWS cloud-formation Yaml File
+username: saraswat2385
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: ValueError on "._" input
+username: Barro
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: C-type quiet NaN not parsed as float by yaml load
+username: timsyapel
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Create timezone-aware datetimes when parsed as such
+username: akaIDIOT
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Fix handling of __slots__
+username: filipsalo
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Support escaped slash in double quotes "\/"
+username: perlpunk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Fix all ResourceWarning caught by tests
+username: jdufresne
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Access node name?
+username: HWiese1980
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Any plans to release a new version?
+username: benkuhn
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Add type hints to public interfaces
+username: gaul
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: pip install appears to fail on macos (v10.13.4) with python 3.7.0b3
+username: brianbruggeman
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Inconsistent rendering of aliases
+username: TheFriendlyCoder
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Remove redundant code in Scanner.peek_token()
+username: asomov
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Test on Python 3.7-dev
+username: hugovk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Update GitHub summary as it points to legacy site
+username: gene1wood
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Parser crashes on strings that contain U+201D (RIGHT DOUBLE QUOTATION MARK)
+username: hollasch
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: What happened to the rest of the discussion on #145?
+username: abalter
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Is ruamel.yaml going to get pulled into pyyaml?
+username: abalter
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Add python 3.7 to travis
+username: perlpunk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Allow to turn off sorting keys in Dumper
+username: perlpunk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Reference environment variables in yaml
+username: somnmos
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Revert "Allow colon in a plain scalar in a flow context (#45)"
+username: asomov
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: TypeError: can't set attributes of built-in/extension type 'object' when loading slots
+username: diefans
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: pyyaml.org let's encrypt certificate outdated
+username: norpol
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: PyYAML installation fails with BadZipfile error
+username: gstlt
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: pyyaml install never ends  (archlinux python 3.6.4)
+username: gilgamezh
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Incorrent list indentation with default_flow_style: false
+username: ollyollyollyltd
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: yaml validation oddity
+username: grinapo
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Installing yaml for Python 3.6 through pip
+username: Amir-Arsalan
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: unexpected behavior of anchors with respect to lists
+username: agx-leon
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Remove call to `ord` in lib3 emitter code
+username: scauligi
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Cannot install/build on Python 3.7-dev
+username: hugovk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: yaml.load does not support encodings different from current system encoding, cannot you add it?
+username: Felix-neko
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: py3 issue in emitter.py
+username: cmbant
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Parser fails when aliasing an alias reference
+username: shakedel
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Parser fails when custom tagging an alias reference
+username: shakedel
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: On load, create timezone-aware datetime objects if possible
+username: cdavoren
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Trim trailing whitespace from all source files throughout project
+username: jdufresne
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Remove commented out Psyco code
+username: jdufresne
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: order in dict is not preserved
+username: MazokuMaxy
+usertype: User
+state: closed
+-------------------------------------------
+Issue title:  PyYaml 3-12 version yaml.load() is failing while trying to load example.yaml file
+username: Bhavana5N
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Cannot load CLoader
+username: lucj
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: value starting with 0 is converted to different number
+username: vreddhi
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Removed Python 2.6 & 3.3
+username: engnadeau
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Added flag to ignore aliases/anchors
+username: engnadeau
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Include license file in the generated wheel package
+username: jdufresne
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Cannot parse valid ISO8601 date with language = it
+username: crystalfp
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Wrong parsing of year-month date
+username: crystalfp
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: issue parsing YAML?
+username: ruivapps
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Use LibYAML/CDumper with safe_dump/safe_dump_all
+username: hieu-n
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Option to ignore undefined tags
+username: theseanything
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Update homepage link
+username: hugovk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Drop unsupported Python 3.3
+username: hugovk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Drop unsupported Python 2.6
+username: hugovk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Drop support for Python 2.5
+username: hugovk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Convert README to Markdown
+username: hugovk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Update changelog link
+username: hugovk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Broken link: https://github.org/yaml/pyyaml
+username: hugovk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: ext/_yaml.c missing?
+username: jagauthier
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Fallback to Pure Python if Compilation fails
+username: dstufft
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: add 3.12 changelog
+username: hsmtkk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Make pyyaml safe by default.
+username: alex
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Bug: order of anchor definition
+username: prateek
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Unicode strings present in inline Python data structures are not loaded properly
+username: terminalmage
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: implicit resolver regex for tag:yaml.org,2002:int incorrectly contains time-parsing content
+username: jason-s
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: yaml implicit resolver leak
+username: xqliang
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Support unicode literals over codepoint 0xffff
+username: adamchainz
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: yaml.constructor.ConstructorError: could not determine a constructor for the tag 'tag:yaml.org,2002:brut.androlib.meta.MetaInfo'
+username: SonglinYu1230
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Adding support to Unicode characters over codepoint 0xffff
+username: peterkmurphy
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Remove tox workaround for Travis CI
+username: jdufresne
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Use Travis CI built in pip cache support
+username: jdufresne
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Document and test Python 3.6 support
+username: jdufresne
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Resolves #57, update readme issues link
+username: basicdays
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Update Readme to reflect current information.
+username: basicdays
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Should avoid dumping YAML comment
+username: wzhliang
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Improve RepresenterError creation
+username: bondarevts
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: on and off are incorrectly interpreted when they are keys
+username: jason-s
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Support adding of representers for whole class-hierarchies.
+username: exhuma
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Issue building/installing PyYAML-3.12
+username: StL-Jim
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Python 3.6 wheels
+username: graingert
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Fix typos
+username: jwilk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Drop all notion of 2.5 support in April 2017
+username: sigmavirus24
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Allow colon in a plain scalar in a flow context
+username: dbeer1
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: shallow copying dicts breaks dump
+username: raulvc
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Linux wheels
+username: perrygeo
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Install tox in a virtualenv
+username: sigmavirus24
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: CHANGES missing the 3.12 release notes
+username: edmorley
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: How to disable anchors and aliases?
+username: guyskk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Some modernization of the test running
+username: dstufft
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Update setup.py to warn about missing cython
+username: jamesbroadhead
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Is this time to pass the baton?
+username: pombredanne
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Validating static site generator data file: pyyaml errors out, while Ruby's YAML doesn't
+username: wkoszek
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: pyyaml==3.11 install from zip failing on Windows with latest setuptools==24.0.2
+username: curzona
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Update setup.py
+username: ghost
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: fix constructor.py:set_python_instance_state
+username: chirayuk
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: pyyaml does not support literals in unicode over codepoint 0xffff
+username: kitterma
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Using reference and overriding key will result to exception
+username: petmakris
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: grammar improvement: "could not found expected" --> "could not find expected"
+username: selik
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Make unsafe operations more obvious
+username: jamesbroadhead
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Update setup to warn about deps & gitignore build output
+username: jamesbroadhead
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: The branch 1.2 is dead
+username: asomov
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Confusing repository
+username: asomov
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: No support for __slots__ object which does not have dict but have __slots__
+username: ChameleonRed
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Fix for typo in ScannerError message
+username: joannelynch92
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Typo in ScannerError message
+username: joannelynch92
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: return dictionary?
+username: ghost
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: folded scalar misbehaves on indent-only lines
+username: cajoz
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Object pairs hook
+username: ml31415
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: scanner: use an infinitive verb after the auxiliary word could
+username: scorphus
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Use an infinitive verb after the auxiliary word `could`
+username: scorphus
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Windows wheel package (.whl) on Pypi
+username: mcarans
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: add string supports
+username: tonicmuroq
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Fixed issue with aliases and deep = True
+username: dustyrockpyle
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Extract a method to represent keys in mappings
+username: davidfraser
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Make load safe_load
+username: sigmavirus24
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: Set-up Travis CI for PyYAML
+username: sigmavirus24
+usertype: User
+state: closed
+-------------------------------------------
+Issue title: yaml.dump has unintuitive defaults
+username: jonchu
+usertype: User
+state: closed
+-------------------------------------------
