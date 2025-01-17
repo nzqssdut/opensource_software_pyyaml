@@ -1,0 +1,6 @@
+Original simple dictionary: {'name': 'John', 'age': 30}
+YAML string of simple dictionary: age: 30
+name: John
+
+Loaded data from YAML string: {'age': 30, 'name': 'John'}
+---------------------------

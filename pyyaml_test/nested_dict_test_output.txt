@@ -1,0 +1,10 @@
+Original nested dictionary: {'person': {'name': 'John', 'age': 30, 'address': {'city': 'New York', 'zipcode': '10001'}}}
+YAML string of nested dictionary: person:
+  address:
+    city: New York
+    zipcode: '10001'
+  age: 30
+  name: John
+
+Loaded data from YAML string: {'person': {'address': {'city': 'New York', 'zipcode': '10001'}, 'age': 30, 'name': 'John'}}
+---------------------------

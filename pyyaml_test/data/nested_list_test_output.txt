@@ -1,0 +1,11 @@
+Original nested list: [['apple', 'banana'], [1, 2, 3], [{'key1': 'value1'}, {'key2': 'value2'}]]
+YAML string of nested list: - - apple
+  - banana
+- - 1
+  - 2
+  - 3
+- - key1: value1
+  - key2: value2
+
+Loaded data from YAML string: [['apple', 'banana'], [1, 2, 3], [{'key1': 'value1'}, {'key2': 'value2'}]]
+---------------------------

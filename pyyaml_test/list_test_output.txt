@@ -1,0 +1,7 @@
+Original list: ['apple', 123, {'key': 'value'}]
+YAML string of list: - apple
+- 123
+- key: value
+
+Loaded data from YAML string: ['apple', 123, {'key': 'value'}]
+---------------------------
