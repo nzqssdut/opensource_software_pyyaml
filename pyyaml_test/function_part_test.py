@@ -30,7 +30,7 @@ class TestPyYAML(unittest.TestCase):
         self.assertEqual(data, loaded_data, "The loaded data from the simple dictionary should match the original data.")
 
         # 将输出结果存储到文件中
-        with open('simple_dict_test_output.txt', 'a') as f:
+        with open('./data/simple_dict_test_output.txt', 'a') as f:
             f.write(f"Original simple dictionary: {data}\n")
             f.write(f"YAML string of simple dictionary: {yaml_str}\n")
             f.write(f"Loaded data from YAML string: {loaded_data}\n")
@@ -69,7 +69,7 @@ class TestPyYAML(unittest.TestCase):
         self.assertEqual(data, loaded_data, "The loaded data from the nested dictionary should match the original data.")
 
         # 将输出结果存储到文件中
-        with open('nested_dict_test_output.txt', 'a') as f:
+        with open('./data/nested_dict_test_output.txt', 'a') as f:
             f.write(f"Original nested dictionary: {data}\n")
             f.write(f"YAML string of nested dictionary: {yaml_str}\n")
             f.write(f"Loaded data from YAML string: {loaded_data}\n")
@@ -99,7 +99,7 @@ class TestPyYAML(unittest.TestCase):
         self.assertEqual(data, loaded_data, "The loaded data from the list should match the original data.")
 
         # 将输出结果存储到文件中
-        with open('list_test_output.txt', 'a') as f:
+        with open('./data/list_test_output.txt', 'a') as f:
             f.write(f"Original list: {data}\n")
             f.write(f"YAML string of list: {yaml_str}\n")
             f.write(f"Loaded data from YAML string: {loaded_data}\n")
